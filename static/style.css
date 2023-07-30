@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+:root {
+  --local-tit-fs: 2.75rem;
+  --input-local-fs: 1rem;
+  --calendario-fs: 0.875rem;
+  --temperatura-fs: 7rem;
+  --descricao-fs: 1.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #232526; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  min-height: 100svh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+form {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 65%;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 4px -10px, rgba(0, 0, 0, 0.3) 0px 12px 13px -3px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+  z-index: 5;
+}
+form #localInput {
+  padding: 5px 15px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: var(--input-local-fs);
+  transition: 0.25s;
+  background: none;
+  border-radius: 0 5px 5px 0;
+}
+form #localInput:focus {
+  outline: none;
+}
+form #localInput::-moz-placeholder {
+  color: white;
+  opacity: 0.8;
+}
+form #localInput::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+form #enviar {
+  display: none;
+}
+form #enviar + svg {
+  cursor: pointer;
+  width: 32px;
+  aspect-ratio: 1/1;
+  border-left: 2px solid white;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-radius: 100vh;
+  padding-left: 6px;
+  margin-right: 10px;
+}
+form #enviar + svg:hover {
+  border-left: 3px solid white;
+}
+
+#phone {
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  width: 100%;
+  max-width: 375px;
+  padding: 0;
+  height: auto;
+  aspect-ratio: 10/19;
+  margin: auto;
+  margin-top: 50px;
+  border: 10px black solid;
+  border-bottom-width: 70px;
+  border-radius: 50px;
+  background: black;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#phone::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 10px;
+}
+#phone.hidden .dots {
+  opacity: 0 !important;
+}
+#phone.hidden .content {
+  background-color: rgba(36, 36, 36, 0.4);
+  box-shadow: rgba(37, 37, 37, 0.17) 0px -23px 25px 0px inset, rgba(49, 49, 49, 0.15) 0px -36px 30px 0px inset, rgba(26, 26, 26, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#phone.Dia:not(.Thunderstorm, .Rain, .Snow, .Mist, .Smoke, .Haze, .Dust, .Fog, .Sand, .Ash, .Squall, .Tornado) .content {
+  background: radial-gradient(circle farthest-corner at 22.4% 21.7%, #04bde4 0%, #01479e 100.2%);
+  box-shadow: rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset, rgba(253, 253, 253, 0.15) 0px -36px 30px 0px inset, rgba(255, 255, 255, 0.1) 0px -79px 40px 0px inset, rgba(14, 13, 13, 0.06) 0px 2px 1px, rgba(7, 7, 7, 0.09) 0px 4px 2px, rgba(10, 10, 10, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(97, 97, 97, 0.09) 0px 32px 16px;
+}
+#phone.Dia:not(.Thunderstorm, .Rain, .Snow, .Mist, .Smoke, .Haze, .Dust, .Fog, .Sand, .Ash, .Squall, .Tornado).nublado .content, #phone.Dia:not(.Thunderstorm, .Rain, .Snow, .Mist, .Smoke, .Haze, .Dust, .Fog, .Sand, .Ash, .Squall, .Tornado).scattered.clouds .content {
+  background: linear-gradient(20deg, #50a2b3, #0a4e8f, rgb(175, 174, 197));
+}
+#phone.Noite:not(.Thunderstorm, .Rain, .Snow, .Mist, .Smoke, .Haze, .Dust, .Fog, .Sand, .Ash, .Squall, .Tornado) .content {
+  background: linear-gradient(20deg, #8e2de2, #551dbe, #181347);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#phone.Noite:not(.Thunderstorm, .Rain, .Snow, .Mist, .Smoke, .Haze, .Dust, .Fog, .Sand, .Ash, .Squall, .Tornado).nublado .content, #phone.Noite:not(.Thunderstorm, .Rain, .Snow, .Mist, .Smoke, .Haze, .Dust, .Fog, .Sand, .Ash, .Squall, .Tornado).scattered.clouds .content {
+  background: linear-gradient(20deg, #53376e, #291858, rgb(27, 19, 48));
+}
+#phone.Dia.Rain .content {
+  background: radial-gradient(circle farthest-corner at 22.4% 21.7%, #0db1c7 0%, #07a38e 100.2%);
+  box-shadow: inset 0 0 400px #02023a;
+  position: relative;
+}
+#phone.Noite.Rain .content {
+  background: radial-gradient(circle farthest-corner at 22.4% 21.7%, #030452 0%, #7f07a3 100.2%);
+  box-shadow: inset 0 0 400px #220731;
+  position: relative;
+}
+#phone.Noite.Thunderstorm .content, #phone.Dia.Thunderstorm .content {
+  background: #303030;
+  box-shadow: inset 0 0 400px #000000;
+  position: relative;
+}
+#phone.Noite.Snow .content, #phone.Dia.Snow .content {
+  background: radial-gradient(circle farthest-corner at 22.4% 21.7%, #4681c5 0%, #151b3d 100.2%);
+  box-shadow: inset 0 0 400px #c1f3ff;
+  position: relative;
+}
+#phone.Noite.Mist .content, #phone.Noite.Smoke .content, #phone.Noite.Haze .content, #phone.Noite.Dust .content, #phone.Noite.Fog .content, #phone.Noite.Sand .content, #phone.Noite.Ash .content, #phone.Noite.Squall .content, #phone.Noite.Tornado .content, #phone.Dia.Mist .content, #phone.Dia.Smoke .content, #phone.Dia.Haze .content, #phone.Dia.Dust .content, #phone.Dia.Fog .content, #phone.Dia.Sand .content, #phone.Dia.Ash .content, #phone.Dia.Squall .content, #phone.Dia.Tornado .content {
+  background: #9fbecc;
+  box-shadow: inset 0 0 400px #696969;
+  position: relative;
+}
+#phone .content {
+  width: 100%;
+  position: relative;
+  height: calc(100% + 0px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1.6rem;
+  border-radius: 40px;
+  transition: 0.25s;
+}
+#phone .content * {
+  margin: 0;
+  z-index: 5;
+}
+#phone .content #data_check_local {
+  position: absolute;
+  top: 66px;
+  font-size: 0.75rem;
+  text-align: start;
+  width: 65%;
+  padding-left: 15px;
+  color: rgb(255, 98, 98);
+  margin-top: -5px;
+}
+#phone .content #calendario-atual {
+  margin-top: 15px;
+  font-family: montserrat;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: var(--calendario-fs);
+}
+#phone .content #local {
+  font-size: var(--local-tit-fs);
+  text-transform: capitalize;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+#phone .content #imagem_descricao {
+  width: 250px;
+  height: 200px;
+}
+#phone .content #imagem_descricao svg {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.7));
+}
+#phone .content #temperatura {
+  font-size: var(--temperatura-fs);
+  font-weight: 600;
+}
+#phone .content #descricao {
+  color: white;
+  font-size: var(--descricao-fs);
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: -20px;
+}
+#phone .content .dots {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 25px;
+  transition: 0.25s;
+  opacity: 1;
+}
+#phone .content .dots .dot {
+  width: 8px;
+  height: 8px;
+  background: white;
+  opacity: 0.5;
+  border-radius: 100vh;
+}
+#phone .content .dots .dot:nth-of-type(1) {
+  opacity: 1 !important;
+}
+#phone #burger {
+  width: 40px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  z-index: 1;
+}
+#phone #burger svg {
+  width: 100%;
+  height: 100%;
+  fill: white !important;
+}
+#phone #burger svg path {
+  fill: white !important;
+}
+#phone #settings {
+  width: 25px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 32px;
+  right: 15px;
+  z-index: 1;
+}
+#phone #settings svg {
+  width: 100%;
+  height: 100%;
+}
+#phone.hidden {
+  position: relative;
+}
+#phone.hidden #umidade_data, #phone.hidden #wind_data {
+  display: none;
+}
+#phone.hidden #imagem_descricao {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  aspect-ratio: 1/1;
+  left: 50%;
+  top: 50%;
+  -webkit-clip-path: inset(0 0 0 2%);
+          clip-path: inset(0 0 0 2%);
+  transform: translate(-50%, -50%);
+  filter: grayscale(1);
+}
+#phone.visible #umidade_data, #phone.visible #wind_data {
+  position: absolute;
+  top: 430px;
+  width: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#phone.visible #umidade_data span, #phone.visible #wind_data span {
+  white-space: nowrap;
+  font-weight: 300;
+}
+#phone.visible #umidade_data {
+  left: 33px;
+}
+#phone.visible #wind_data {
+  right: 33px;
+}/*# sourceMappingURL=style.css.map */

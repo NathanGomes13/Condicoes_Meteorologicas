@@ -1,0 +1,162 @@
+#phone.Noite.Clear #imagem_descricao svg {
+  animation: moonSunBouncingClear 7s ease-in-out infinite;
+}
+#phone.Noite.Clouds:not(.nublado, .scattered.clouds) #imagem_descricao svg g:nth-of-type(1), #phone.Noite.Clouds:not(.nublado, .scattered.clouds) #imagem_descricao svg g:nth-of-type(2) {
+  animation: moonBouncingClouds 6s ease-in-out infinite;
+}
+#phone.Noite.Clouds:not(.nublado, .scattered.clouds) #imagem_descricao svg g:nth-last-of-type(1) {
+  animation: cloudsMovingLeft 6s ease-in-out infinite;
+}
+#phone.Noite.Clouds:not(.nublado, .scattered.clouds) #imagem_descricao svg g:nth-last-of-type(2) {
+  animation: cloudsMovingRight 8s ease-in-out infinite;
+}
+#phone.Noite.Rain #imagem_descricao svg g:nth-of-type(2) {
+  animation: moonBouncingClouds 6s ease-in-out infinite;
+}
+#phone.Noite.Rain #imagem_descricao svg g:nth-of-type(1) {
+  animation: moonSunBouncingClear 5s ease-in-out infinite;
+}
+#phone.Noite.Rain #imagem_descricao svg g:nth-of-type(4) {
+  animation: moonSunBouncingClear 4s ease-in-out infinite;
+}
+#phone.Noite.Rain #imagem_descricao svg g:nth-of-type(5) {
+  animation: moonSunBouncingClear 7s ease-in-out infinite;
+}
+#phone.Noite.Rain #imagem_descricao svg g:nth-of-type(6) {
+  animation: moonSunBouncingClear 6s ease-in-out infinite;
+}
+
+#phone.Dia.Clear #imagem_descricao svg {
+  animation: moonSunBouncingClear 7s ease-in-out infinite;
+}
+#phone.Dia.Clouds:not(.nublado, .scattered.clouds) #imagem_descricao svg g:nth-of-type(2) {
+  animation: moonSunBouncingClear 7s ease-in-out infinite;
+}
+#phone.Dia.Clouds:not(.nublado, .scattered.clouds) #imagem_descricao svg g:nth-last-of-type(1) {
+  animation: cloudsMovingRight 10s ease-in-out infinite;
+}
+#phone.Dia.Rain #imagem_descricao svg g:nth-of-type(1) {
+  animation: moonSunBouncingClear 8s ease-in-out infinite;
+}
+#phone.Dia.Rain #imagem_descricao svg g:nth-of-type(2) {
+  animation: moonBouncingClouds 6s ease-in-out infinite;
+}
+#phone.Dia.Rain #imagem_descricao svg g:nth-of-type(3) {
+  animation: moonSunBouncingClear 4s ease-in-out infinite;
+}
+#phone.Dia.Rain #imagem_descricao svg g:nth-of-type(4) {
+  animation: moonSunBouncingClear 7s ease-in-out infinite;
+}
+#phone.Dia.Rain #imagem_descricao svg g:nth-of-type(5) {
+  animation: moonSunBouncingClear 5s ease-in-out infinite;
+}
+
+#phone.Noite.nublado #imagem_descricao svg, #phone.Dia.nublado #imagem_descricao svg {
+  animation: moonSunBouncingClear 7s ease-in-out infinite;
+}
+
+#phone.Noite.Thunderstorm #imagem_descricao svg, .phone.Dia.Thunderstorm #imagem_descricao svg {
+  animation: moonSunBouncingClear 7s ease-in-out infinite;
+}
+#phone.Noite.Thunderstorm #imagem_descricao svg g:nth-of-type(3) rect, .phone.Dia.Thunderstorm #imagem_descricao svg g:nth-of-type(3) rect {
+  height: 32px;
+}
+
+#phone.Noite.Snow #imagem_descricao svg g:nth-of-type(2), #phone.Dia.Snow #imagem_descricao svg g:nth-of-type(2) {
+  animation: rotating 120s linear infinite;
+  transform-origin: center center;
+}
+#phone.Noite.Snow #imagem_descricao svg g:nth-of-type(3), #phone.Noite.Snow #imagem_descricao svg g:nth-of-type(4), #phone.Noite.Snow #imagem_descricao svg g:nth-of-type(5), #phone.Noite.Snow #imagem_descricao svg g:nth-of-type(6), #phone.Noite.Snow #imagem_descricao svg g:nth-of-type(7), #phone.Dia.Snow #imagem_descricao svg g:nth-of-type(3), #phone.Dia.Snow #imagem_descricao svg g:nth-of-type(4), #phone.Dia.Snow #imagem_descricao svg g:nth-of-type(5), #phone.Dia.Snow #imagem_descricao svg g:nth-of-type(6), #phone.Dia.Snow #imagem_descricao svg g:nth-of-type(7) {
+  animation: moonSunBouncingClear 4s ease-in-out infinite;
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes moonSunBouncingClear {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes moonBouncingClouds {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes cloudsMovingLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-40px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes cloudsMovingRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(25px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#phone.Noite.Thunderstorm .content::before, #phone.Dia.Thunderstorm .content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: white;
+  animation: flash 6s linear infinite 2s;
+  border-radius: 40px;
+}
+@keyframes flash {
+  0% {
+    opacity: 0.2;
+  }
+  1% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0.2;
+  }
+  10% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  32% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=animations.css.map */

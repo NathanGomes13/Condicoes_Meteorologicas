@@ -1,0 +1,4597 @@
+#phone.Thunderstorm .rain, #phone.Rain .rain {
+  background: white;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  height: 50px;
+  position: absolute;
+  width: 1px;
+  z-index: 1;
+}
+#phone.Thunderstorm .rain:nth-of-type(1), #phone.Rain .rain:nth-of-type(1) {
+  animation-name: rain-1;
+  animation-delay: 6s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 95%;
+  opacity: 0.5;
+  top: -97%;
+}
+@keyframes rain-1 {
+  from {
+    left: 95%;
+    opacity: 0.5;
+    top: -97%;
+  }
+  to {
+    opacity: 0;
+    top: 137%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(2), #phone.Rain .rain:nth-of-type(2) {
+  animation-name: rain-2;
+  animation-delay: 3s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 38%;
+  opacity: 0.34;
+  top: -90%;
+}
+@keyframes rain-2 {
+  from {
+    left: 38%;
+    opacity: 0.34;
+    top: -90%;
+  }
+  to {
+    opacity: 0;
+    top: 130%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(3), #phone.Rain .rain:nth-of-type(3) {
+  animation-name: rain-3;
+  animation-delay: 9s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 97%;
+  opacity: 0.41;
+  top: -62%;
+}
+@keyframes rain-3 {
+  from {
+    left: 97%;
+    opacity: 0.41;
+    top: -62%;
+  }
+  to {
+    opacity: 0;
+    top: 102%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(4), #phone.Rain .rain:nth-of-type(4) {
+  animation-name: rain-4;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 95%;
+  opacity: 0.47;
+  top: -85%;
+}
+@keyframes rain-4 {
+  from {
+    left: 95%;
+    opacity: 0.47;
+    top: -85%;
+  }
+  to {
+    opacity: 0;
+    top: 125%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(5), #phone.Rain .rain:nth-of-type(5) {
+  animation-name: rain-5;
+  animation-delay: 16s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 63%;
+  opacity: 0.58;
+  top: -57%;
+}
+@keyframes rain-5 {
+  from {
+    left: 63%;
+    opacity: 0.58;
+    top: -57%;
+  }
+  to {
+    opacity: 0;
+    top: 97%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(6), #phone.Rain .rain:nth-of-type(6) {
+  animation-name: rain-6;
+  animation-delay: 3s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 27%;
+  opacity: 0.43;
+  top: -89%;
+}
+@keyframes rain-6 {
+  from {
+    left: 27%;
+    opacity: 0.43;
+    top: -89%;
+  }
+  to {
+    opacity: 0;
+    top: 129%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(7), #phone.Rain .rain:nth-of-type(7) {
+  animation-name: rain-7;
+  animation-delay: 18s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 96%;
+  opacity: 0.46;
+  top: -79%;
+}
+@keyframes rain-7 {
+  from {
+    left: 96%;
+    opacity: 0.46;
+    top: -79%;
+  }
+  to {
+    opacity: 0;
+    top: 119%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(8), #phone.Rain .rain:nth-of-type(8) {
+  animation-name: rain-8;
+  animation-delay: 15s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 82%;
+  opacity: 0.42;
+  top: -90%;
+}
+@keyframes rain-8 {
+  from {
+    left: 82%;
+    opacity: 0.42;
+    top: -90%;
+  }
+  to {
+    opacity: 0;
+    top: 130%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(9), #phone.Rain .rain:nth-of-type(9) {
+  animation-name: rain-9;
+  animation-delay: 0s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 82%;
+  opacity: 0.38;
+  top: -51%;
+}
+@keyframes rain-9 {
+  from {
+    left: 82%;
+    opacity: 0.38;
+    top: -51%;
+  }
+  to {
+    opacity: 0;
+    top: 91%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(10), #phone.Rain .rain:nth-of-type(10) {
+  animation-name: rain-10;
+  animation-delay: 11s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 8%;
+  opacity: 0.41;
+  top: -99%;
+}
+@keyframes rain-10 {
+  from {
+    left: 8%;
+    opacity: 0.41;
+    top: -99%;
+  }
+  to {
+    opacity: 0;
+    top: 139%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(11), #phone.Rain .rain:nth-of-type(11) {
+  animation-name: rain-11;
+  animation-delay: 15s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 94%;
+  opacity: 0.56;
+  top: -93%;
+}
+@keyframes rain-11 {
+  from {
+    left: 94%;
+    opacity: 0.56;
+    top: -93%;
+  }
+  to {
+    opacity: 0;
+    top: 133%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(12), #phone.Rain .rain:nth-of-type(12) {
+  animation-name: rain-12;
+  animation-delay: 15s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 45%;
+  opacity: 0.56;
+  top: -61%;
+}
+@keyframes rain-12 {
+  from {
+    left: 45%;
+    opacity: 0.56;
+    top: -61%;
+  }
+  to {
+    opacity: 0;
+    top: 101%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(13), #phone.Rain .rain:nth-of-type(13) {
+  animation-name: rain-13;
+  animation-delay: 7s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 10%;
+  opacity: 0.42;
+  top: -68%;
+}
+@keyframes rain-13 {
+  from {
+    left: 10%;
+    opacity: 0.42;
+    top: -68%;
+  }
+  to {
+    opacity: 0;
+    top: 108%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(14), #phone.Rain .rain:nth-of-type(14) {
+  animation-name: rain-14;
+  animation-delay: 0s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 46%;
+  opacity: 0.36;
+  top: -89%;
+}
+@keyframes rain-14 {
+  from {
+    left: 46%;
+    opacity: 0.36;
+    top: -89%;
+  }
+  to {
+    opacity: 0;
+    top: 129%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(15), #phone.Rain .rain:nth-of-type(15) {
+  animation-name: rain-15;
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 79%;
+  opacity: 0.45;
+  top: -93%;
+}
+@keyframes rain-15 {
+  from {
+    left: 79%;
+    opacity: 0.45;
+    top: -93%;
+  }
+  to {
+    opacity: 0;
+    top: 133%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(16), #phone.Rain .rain:nth-of-type(16) {
+  animation-name: rain-16;
+  animation-delay: 9s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 27%;
+  opacity: 0.33;
+  top: -55%;
+}
+@keyframes rain-16 {
+  from {
+    left: 27%;
+    opacity: 0.33;
+    top: -55%;
+  }
+  to {
+    opacity: 0;
+    top: 95%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(17), #phone.Rain .rain:nth-of-type(17) {
+  animation-name: rain-17;
+  animation-delay: 12s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 85%;
+  opacity: 0.51;
+  top: -67%;
+}
+@keyframes rain-17 {
+  from {
+    left: 85%;
+    opacity: 0.51;
+    top: -67%;
+  }
+  to {
+    opacity: 0;
+    top: 107%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(18), #phone.Rain .rain:nth-of-type(18) {
+  animation-name: rain-18;
+  animation-delay: 0s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 35%;
+  opacity: 0.37;
+  top: -60%;
+}
+@keyframes rain-18 {
+  from {
+    left: 35%;
+    opacity: 0.37;
+    top: -60%;
+  }
+  to {
+    opacity: 0;
+    top: 100%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(19), #phone.Rain .rain:nth-of-type(19) {
+  animation-name: rain-19;
+  animation-delay: 10s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 66%;
+  opacity: 0.59;
+  top: -78%;
+}
+@keyframes rain-19 {
+  from {
+    left: 66%;
+    opacity: 0.59;
+    top: -78%;
+  }
+  to {
+    opacity: 0;
+    top: 118%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(20), #phone.Rain .rain:nth-of-type(20) {
+  animation-name: rain-20;
+  animation-delay: 17s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 33%;
+  opacity: 0.31;
+  top: -51%;
+}
+@keyframes rain-20 {
+  from {
+    left: 33%;
+    opacity: 0.31;
+    top: -51%;
+  }
+  to {
+    opacity: 0;
+    top: 91%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(21), #phone.Rain .rain:nth-of-type(21) {
+  animation-name: rain-21;
+  animation-delay: 2s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 22%;
+  opacity: 0.59;
+  top: -90%;
+}
+@keyframes rain-21 {
+  from {
+    left: 22%;
+    opacity: 0.59;
+    top: -90%;
+  }
+  to {
+    opacity: 0;
+    top: 130%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(22), #phone.Rain .rain:nth-of-type(22) {
+  animation-name: rain-22;
+  animation-delay: 10s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 66%;
+  opacity: 0.45;
+  top: -74%;
+}
+@keyframes rain-22 {
+  from {
+    left: 66%;
+    opacity: 0.45;
+    top: -74%;
+  }
+  to {
+    opacity: 0;
+    top: 114%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(23), #phone.Rain .rain:nth-of-type(23) {
+  animation-name: rain-23;
+  animation-delay: 18s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 79%;
+  opacity: 0.38;
+  top: -57%;
+}
+@keyframes rain-23 {
+  from {
+    left: 79%;
+    opacity: 0.38;
+    top: -57%;
+  }
+  to {
+    opacity: 0;
+    top: 97%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(24), #phone.Rain .rain:nth-of-type(24) {
+  animation-name: rain-24;
+  animation-delay: 18s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 80%;
+  opacity: 0.38;
+  top: -71%;
+}
+@keyframes rain-24 {
+  from {
+    left: 80%;
+    opacity: 0.38;
+    top: -71%;
+  }
+  to {
+    opacity: 0;
+    top: 111%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(25), #phone.Rain .rain:nth-of-type(25) {
+  animation-name: rain-25;
+  animation-delay: 16s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 7%;
+  opacity: 0.51;
+  top: -74%;
+}
+@keyframes rain-25 {
+  from {
+    left: 7%;
+    opacity: 0.51;
+    top: -74%;
+  }
+  to {
+    opacity: 0;
+    top: 114%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(26), #phone.Rain .rain:nth-of-type(26) {
+  animation-name: rain-26;
+  animation-delay: 13s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 54%;
+  opacity: 0.51;
+  top: -82%;
+}
+@keyframes rain-26 {
+  from {
+    left: 54%;
+    opacity: 0.51;
+    top: -82%;
+  }
+  to {
+    opacity: 0;
+    top: 122%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(27), #phone.Rain .rain:nth-of-type(27) {
+  animation-name: rain-27;
+  animation-delay: 19s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 18%;
+  opacity: 0.4;
+  top: -84%;
+}
+@keyframes rain-27 {
+  from {
+    left: 18%;
+    opacity: 0.4;
+    top: -84%;
+  }
+  to {
+    opacity: 0;
+    top: 124%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(28), #phone.Rain .rain:nth-of-type(28) {
+  animation-name: rain-28;
+  animation-delay: 9s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 8%;
+  opacity: 0.33;
+  top: -59%;
+}
+@keyframes rain-28 {
+  from {
+    left: 8%;
+    opacity: 0.33;
+    top: -59%;
+  }
+  to {
+    opacity: 0;
+    top: 99%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(29), #phone.Rain .rain:nth-of-type(29) {
+  animation-name: rain-29;
+  animation-delay: 14s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 58%;
+  opacity: 0.6;
+  top: -93%;
+}
+@keyframes rain-29 {
+  from {
+    left: 58%;
+    opacity: 0.6;
+    top: -93%;
+  }
+  to {
+    opacity: 0;
+    top: 133%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(30), #phone.Rain .rain:nth-of-type(30) {
+  animation-name: rain-30;
+  animation-delay: 9s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 36%;
+  opacity: 0.42;
+  top: -66%;
+}
+@keyframes rain-30 {
+  from {
+    left: 36%;
+    opacity: 0.42;
+    top: -66%;
+  }
+  to {
+    opacity: 0;
+    top: 106%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(31), #phone.Rain .rain:nth-of-type(31) {
+  animation-name: rain-31;
+  animation-delay: 15s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 45%;
+  opacity: 0.31;
+  top: -68%;
+}
+@keyframes rain-31 {
+  from {
+    left: 45%;
+    opacity: 0.31;
+    top: -68%;
+  }
+  to {
+    opacity: 0;
+    top: 108%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(32), #phone.Rain .rain:nth-of-type(32) {
+  animation-name: rain-32;
+  animation-delay: 12s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 8%;
+  opacity: 0.57;
+  top: -56%;
+}
+@keyframes rain-32 {
+  from {
+    left: 8%;
+    opacity: 0.57;
+    top: -56%;
+  }
+  to {
+    opacity: 0;
+    top: 96%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(33), #phone.Rain .rain:nth-of-type(33) {
+  animation-name: rain-33;
+  animation-delay: 15s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 39%;
+  opacity: 0.35;
+  top: -53%;
+}
+@keyframes rain-33 {
+  from {
+    left: 39%;
+    opacity: 0.35;
+    top: -53%;
+  }
+  to {
+    opacity: 0;
+    top: 93%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(34), #phone.Rain .rain:nth-of-type(34) {
+  animation-name: rain-34;
+  animation-delay: 9s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 40%;
+  opacity: 0.59;
+  top: -72%;
+}
+@keyframes rain-34 {
+  from {
+    left: 40%;
+    opacity: 0.59;
+    top: -72%;
+  }
+  to {
+    opacity: 0;
+    top: 112%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(35), #phone.Rain .rain:nth-of-type(35) {
+  animation-name: rain-35;
+  animation-delay: 6s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 48%;
+  opacity: 0.55;
+  top: -83%;
+}
+@keyframes rain-35 {
+  from {
+    left: 48%;
+    opacity: 0.55;
+    top: -83%;
+  }
+  to {
+    opacity: 0;
+    top: 123%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(36), #phone.Rain .rain:nth-of-type(36) {
+  animation-name: rain-36;
+  animation-delay: 7s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 68%;
+  opacity: 0.44;
+  top: -96%;
+}
+@keyframes rain-36 {
+  from {
+    left: 68%;
+    opacity: 0.44;
+    top: -96%;
+  }
+  to {
+    opacity: 0;
+    top: 136%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(37), #phone.Rain .rain:nth-of-type(37) {
+  animation-name: rain-37;
+  animation-delay: 2s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 83%;
+  opacity: 0.43;
+  top: -91%;
+}
+@keyframes rain-37 {
+  from {
+    left: 83%;
+    opacity: 0.43;
+    top: -91%;
+  }
+  to {
+    opacity: 0;
+    top: 131%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(38), #phone.Rain .rain:nth-of-type(38) {
+  animation-name: rain-38;
+  animation-delay: 16s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 47%;
+  opacity: 0.51;
+  top: -87%;
+}
+@keyframes rain-38 {
+  from {
+    left: 47%;
+    opacity: 0.51;
+    top: -87%;
+  }
+  to {
+    opacity: 0;
+    top: 127%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(39), #phone.Rain .rain:nth-of-type(39) {
+  animation-name: rain-39;
+  animation-delay: 12s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 36%;
+  opacity: 0.51;
+  top: -91%;
+}
+@keyframes rain-39 {
+  from {
+    left: 36%;
+    opacity: 0.51;
+    top: -91%;
+  }
+  to {
+    opacity: 0;
+    top: 131%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(40), #phone.Rain .rain:nth-of-type(40) {
+  animation-name: rain-40;
+  animation-delay: 19s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 64%;
+  opacity: 0.55;
+  top: -62%;
+}
+@keyframes rain-40 {
+  from {
+    left: 64%;
+    opacity: 0.55;
+    top: -62%;
+  }
+  to {
+    opacity: 0;
+    top: 102%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(41), #phone.Rain .rain:nth-of-type(41) {
+  animation-name: rain-41;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 89%;
+  opacity: 0.57;
+  top: -96%;
+}
+@keyframes rain-41 {
+  from {
+    left: 89%;
+    opacity: 0.57;
+    top: -96%;
+  }
+  to {
+    opacity: 0;
+    top: 136%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(42), #phone.Rain .rain:nth-of-type(42) {
+  animation-name: rain-42;
+  animation-delay: 3s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 78%;
+  opacity: 0.51;
+  top: -68%;
+}
+@keyframes rain-42 {
+  from {
+    left: 78%;
+    opacity: 0.51;
+    top: -68%;
+  }
+  to {
+    opacity: 0;
+    top: 108%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(43), #phone.Rain .rain:nth-of-type(43) {
+  animation-name: rain-43;
+  animation-delay: 9s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 86%;
+  opacity: 0.56;
+  top: -68%;
+}
+@keyframes rain-43 {
+  from {
+    left: 86%;
+    opacity: 0.56;
+    top: -68%;
+  }
+  to {
+    opacity: 0;
+    top: 108%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(44), #phone.Rain .rain:nth-of-type(44) {
+  animation-name: rain-44;
+  animation-delay: 13s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 68%;
+  opacity: 0.59;
+  top: -89%;
+}
+@keyframes rain-44 {
+  from {
+    left: 68%;
+    opacity: 0.59;
+    top: -89%;
+  }
+  to {
+    opacity: 0;
+    top: 129%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(45), #phone.Rain .rain:nth-of-type(45) {
+  animation-name: rain-45;
+  animation-delay: 6s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 19%;
+  opacity: 0.48;
+  top: -69%;
+}
+@keyframes rain-45 {
+  from {
+    left: 19%;
+    opacity: 0.48;
+    top: -69%;
+  }
+  to {
+    opacity: 0;
+    top: 109%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(46), #phone.Rain .rain:nth-of-type(46) {
+  animation-name: rain-46;
+  animation-delay: 0s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 48%;
+  opacity: 0.51;
+  top: -72%;
+}
+@keyframes rain-46 {
+  from {
+    left: 48%;
+    opacity: 0.51;
+    top: -72%;
+  }
+  to {
+    opacity: 0;
+    top: 112%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(47), #phone.Rain .rain:nth-of-type(47) {
+  animation-name: rain-47;
+  animation-delay: 18s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 50%;
+  opacity: 0.5;
+  top: -86%;
+}
+@keyframes rain-47 {
+  from {
+    left: 50%;
+    opacity: 0.5;
+    top: -86%;
+  }
+  to {
+    opacity: 0;
+    top: 126%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(48), #phone.Rain .rain:nth-of-type(48) {
+  animation-name: rain-48;
+  animation-delay: 16s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 14%;
+  opacity: 0.54;
+  top: -88%;
+}
+@keyframes rain-48 {
+  from {
+    left: 14%;
+    opacity: 0.54;
+    top: -88%;
+  }
+  to {
+    opacity: 0;
+    top: 128%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(49), #phone.Rain .rain:nth-of-type(49) {
+  animation-name: rain-49;
+  animation-delay: 18s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 36%;
+  opacity: 0.36;
+  top: -68%;
+}
+@keyframes rain-49 {
+  from {
+    left: 36%;
+    opacity: 0.36;
+    top: -68%;
+  }
+  to {
+    opacity: 0;
+    top: 108%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(50), #phone.Rain .rain:nth-of-type(50) {
+  animation-name: rain-50;
+  animation-delay: 5s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 25%;
+  opacity: 0.53;
+  top: -89%;
+}
+@keyframes rain-50 {
+  from {
+    left: 25%;
+    opacity: 0.53;
+    top: -89%;
+  }
+  to {
+    opacity: 0;
+    top: 129%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(51), #phone.Rain .rain:nth-of-type(51) {
+  animation-name: rain-51;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 17%;
+  opacity: 0.44;
+  top: -56%;
+}
+@keyframes rain-51 {
+  from {
+    left: 17%;
+    opacity: 0.44;
+    top: -56%;
+  }
+  to {
+    opacity: 0;
+    top: 96%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(52), #phone.Rain .rain:nth-of-type(52) {
+  animation-name: rain-52;
+  animation-delay: 13s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 71%;
+  opacity: 0.46;
+  top: -57%;
+}
+@keyframes rain-52 {
+  from {
+    left: 71%;
+    opacity: 0.46;
+    top: -57%;
+  }
+  to {
+    opacity: 0;
+    top: 97%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(53), #phone.Rain .rain:nth-of-type(53) {
+  animation-name: rain-53;
+  animation-delay: 1s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 63%;
+  opacity: 0.58;
+  top: -65%;
+}
+@keyframes rain-53 {
+  from {
+    left: 63%;
+    opacity: 0.58;
+    top: -65%;
+  }
+  to {
+    opacity: 0;
+    top: 105%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(54), #phone.Rain .rain:nth-of-type(54) {
+  animation-name: rain-54;
+  animation-delay: 0s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 95%;
+  opacity: 0.34;
+  top: -76%;
+}
+@keyframes rain-54 {
+  from {
+    left: 95%;
+    opacity: 0.34;
+    top: -76%;
+  }
+  to {
+    opacity: 0;
+    top: 116%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(55), #phone.Rain .rain:nth-of-type(55) {
+  animation-name: rain-55;
+  animation-delay: 12s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 63%;
+  opacity: 0.6;
+  top: -100%;
+}
+@keyframes rain-55 {
+  from {
+    left: 63%;
+    opacity: 0.6;
+    top: -100%;
+  }
+  to {
+    opacity: 0;
+    top: 140%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(56), #phone.Rain .rain:nth-of-type(56) {
+  animation-name: rain-56;
+  animation-delay: 6s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 21%;
+  opacity: 0.38;
+  top: -86%;
+}
+@keyframes rain-56 {
+  from {
+    left: 21%;
+    opacity: 0.38;
+    top: -86%;
+  }
+  to {
+    opacity: 0;
+    top: 126%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(57), #phone.Rain .rain:nth-of-type(57) {
+  animation-name: rain-57;
+  animation-delay: 18s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 50%;
+  opacity: 0.55;
+  top: -79%;
+}
+@keyframes rain-57 {
+  from {
+    left: 50%;
+    opacity: 0.55;
+    top: -79%;
+  }
+  to {
+    opacity: 0;
+    top: 119%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(58), #phone.Rain .rain:nth-of-type(58) {
+  animation-name: rain-58;
+  animation-delay: 9s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 59%;
+  opacity: 0.55;
+  top: -84%;
+}
+@keyframes rain-58 {
+  from {
+    left: 59%;
+    opacity: 0.55;
+    top: -84%;
+  }
+  to {
+    opacity: 0;
+    top: 124%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(59), #phone.Rain .rain:nth-of-type(59) {
+  animation-name: rain-59;
+  animation-delay: 9s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 46%;
+  opacity: 0.52;
+  top: -54%;
+}
+@keyframes rain-59 {
+  from {
+    left: 46%;
+    opacity: 0.52;
+    top: -54%;
+  }
+  to {
+    opacity: 0;
+    top: 94%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(60), #phone.Rain .rain:nth-of-type(60) {
+  animation-name: rain-60;
+  animation-delay: 14s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 52%;
+  opacity: 0.34;
+  top: -71%;
+}
+@keyframes rain-60 {
+  from {
+    left: 52%;
+    opacity: 0.34;
+    top: -71%;
+  }
+  to {
+    opacity: 0;
+    top: 111%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(61), #phone.Rain .rain:nth-of-type(61) {
+  animation-name: rain-61;
+  animation-delay: 19s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 18%;
+  opacity: 0.48;
+  top: -94%;
+}
+@keyframes rain-61 {
+  from {
+    left: 18%;
+    opacity: 0.48;
+    top: -94%;
+  }
+  to {
+    opacity: 0;
+    top: 134%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(62), #phone.Rain .rain:nth-of-type(62) {
+  animation-name: rain-62;
+  animation-delay: 2s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 19%;
+  opacity: 0.41;
+  top: -52%;
+}
+@keyframes rain-62 {
+  from {
+    left: 19%;
+    opacity: 0.41;
+    top: -52%;
+  }
+  to {
+    opacity: 0;
+    top: 92%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(63), #phone.Rain .rain:nth-of-type(63) {
+  animation-name: rain-63;
+  animation-delay: 17s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 69%;
+  opacity: 0.34;
+  top: -72%;
+}
+@keyframes rain-63 {
+  from {
+    left: 69%;
+    opacity: 0.34;
+    top: -72%;
+  }
+  to {
+    opacity: 0;
+    top: 112%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(64), #phone.Rain .rain:nth-of-type(64) {
+  animation-name: rain-64;
+  animation-delay: 4s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 89%;
+  opacity: 0.51;
+  top: -73%;
+}
+@keyframes rain-64 {
+  from {
+    left: 89%;
+    opacity: 0.51;
+    top: -73%;
+  }
+  to {
+    opacity: 0;
+    top: 113%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(65), #phone.Rain .rain:nth-of-type(65) {
+  animation-name: rain-65;
+  animation-delay: 6s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 29%;
+  opacity: 0.59;
+  top: -76%;
+}
+@keyframes rain-65 {
+  from {
+    left: 29%;
+    opacity: 0.59;
+    top: -76%;
+  }
+  to {
+    opacity: 0;
+    top: 116%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(66), #phone.Rain .rain:nth-of-type(66) {
+  animation-name: rain-66;
+  animation-delay: 4s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 32%;
+  opacity: 0.33;
+  top: -58%;
+}
+@keyframes rain-66 {
+  from {
+    left: 32%;
+    opacity: 0.33;
+    top: -58%;
+  }
+  to {
+    opacity: 0;
+    top: 98%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(67), #phone.Rain .rain:nth-of-type(67) {
+  animation-name: rain-67;
+  animation-delay: 17s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 7%;
+  opacity: 0.58;
+  top: -81%;
+}
+@keyframes rain-67 {
+  from {
+    left: 7%;
+    opacity: 0.58;
+    top: -81%;
+  }
+  to {
+    opacity: 0;
+    top: 121%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(68), #phone.Rain .rain:nth-of-type(68) {
+  animation-name: rain-68;
+  animation-delay: 8s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 90%;
+  opacity: 0.4;
+  top: -61%;
+}
+@keyframes rain-68 {
+  from {
+    left: 90%;
+    opacity: 0.4;
+    top: -61%;
+  }
+  to {
+    opacity: 0;
+    top: 101%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(69), #phone.Rain .rain:nth-of-type(69) {
+  animation-name: rain-69;
+  animation-delay: 8s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 72%;
+  opacity: 0.53;
+  top: -66%;
+}
+@keyframes rain-69 {
+  from {
+    left: 72%;
+    opacity: 0.53;
+    top: -66%;
+  }
+  to {
+    opacity: 0;
+    top: 106%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(70), #phone.Rain .rain:nth-of-type(70) {
+  animation-name: rain-70;
+  animation-delay: 5s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 83%;
+  opacity: 0.45;
+  top: -95%;
+}
+@keyframes rain-70 {
+  from {
+    left: 83%;
+    opacity: 0.45;
+    top: -95%;
+  }
+  to {
+    opacity: 0;
+    top: 135%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(71), #phone.Rain .rain:nth-of-type(71) {
+  animation-name: rain-71;
+  animation-delay: 4s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 100%;
+  opacity: 0.49;
+  top: -83%;
+}
+@keyframes rain-71 {
+  from {
+    left: 100%;
+    opacity: 0.49;
+    top: -83%;
+  }
+  to {
+    opacity: 0;
+    top: 123%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(72), #phone.Rain .rain:nth-of-type(72) {
+  animation-name: rain-72;
+  animation-delay: 17s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 2%;
+  opacity: 0.48;
+  top: -75%;
+}
+@keyframes rain-72 {
+  from {
+    left: 2%;
+    opacity: 0.48;
+    top: -75%;
+  }
+  to {
+    opacity: 0;
+    top: 115%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(73), #phone.Rain .rain:nth-of-type(73) {
+  animation-name: rain-73;
+  animation-delay: 17s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 58%;
+  opacity: 0.34;
+  top: -74%;
+}
+@keyframes rain-73 {
+  from {
+    left: 58%;
+    opacity: 0.34;
+    top: -74%;
+  }
+  to {
+    opacity: 0;
+    top: 114%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(74), #phone.Rain .rain:nth-of-type(74) {
+  animation-name: rain-74;
+  animation-delay: 12s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 29%;
+  opacity: 0.45;
+  top: -72%;
+}
+@keyframes rain-74 {
+  from {
+    left: 29%;
+    opacity: 0.45;
+    top: -72%;
+  }
+  to {
+    opacity: 0;
+    top: 112%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(75), #phone.Rain .rain:nth-of-type(75) {
+  animation-name: rain-75;
+  animation-delay: 18s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 6%;
+  opacity: 0.38;
+  top: -61%;
+}
+@keyframes rain-75 {
+  from {
+    left: 6%;
+    opacity: 0.38;
+    top: -61%;
+  }
+  to {
+    opacity: 0;
+    top: 101%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(76), #phone.Rain .rain:nth-of-type(76) {
+  animation-name: rain-76;
+  animation-delay: 17s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 44%;
+  opacity: 0.46;
+  top: -70%;
+}
+@keyframes rain-76 {
+  from {
+    left: 44%;
+    opacity: 0.46;
+    top: -70%;
+  }
+  to {
+    opacity: 0;
+    top: 110%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(77), #phone.Rain .rain:nth-of-type(77) {
+  animation-name: rain-77;
+  animation-delay: 14s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 46%;
+  opacity: 0.6;
+  top: -76%;
+}
+@keyframes rain-77 {
+  from {
+    left: 46%;
+    opacity: 0.6;
+    top: -76%;
+  }
+  to {
+    opacity: 0;
+    top: 116%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(78), #phone.Rain .rain:nth-of-type(78) {
+  animation-name: rain-78;
+  animation-delay: 13s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 40%;
+  opacity: 0.52;
+  top: -87%;
+}
+@keyframes rain-78 {
+  from {
+    left: 40%;
+    opacity: 0.52;
+    top: -87%;
+  }
+  to {
+    opacity: 0;
+    top: 127%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(79), #phone.Rain .rain:nth-of-type(79) {
+  animation-name: rain-79;
+  animation-delay: 17s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 35%;
+  opacity: 0.32;
+  top: -74%;
+}
+@keyframes rain-79 {
+  from {
+    left: 35%;
+    opacity: 0.32;
+    top: -74%;
+  }
+  to {
+    opacity: 0;
+    top: 114%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(80), #phone.Rain .rain:nth-of-type(80) {
+  animation-name: rain-80;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 25%;
+  opacity: 0.43;
+  top: -73%;
+}
+@keyframes rain-80 {
+  from {
+    left: 25%;
+    opacity: 0.43;
+    top: -73%;
+  }
+  to {
+    opacity: 0;
+    top: 113%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(81), #phone.Rain .rain:nth-of-type(81) {
+  animation-name: rain-81;
+  animation-delay: 11s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 58%;
+  opacity: 0.51;
+  top: -95%;
+}
+@keyframes rain-81 {
+  from {
+    left: 58%;
+    opacity: 0.51;
+    top: -95%;
+  }
+  to {
+    opacity: 0;
+    top: 135%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(82), #phone.Rain .rain:nth-of-type(82) {
+  animation-name: rain-82;
+  animation-delay: 19s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 30%;
+  opacity: 0.54;
+  top: -64%;
+}
+@keyframes rain-82 {
+  from {
+    left: 30%;
+    opacity: 0.54;
+    top: -64%;
+  }
+  to {
+    opacity: 0;
+    top: 104%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(83), #phone.Rain .rain:nth-of-type(83) {
+  animation-name: rain-83;
+  animation-delay: 3s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 36%;
+  opacity: 0.4;
+  top: -74%;
+}
+@keyframes rain-83 {
+  from {
+    left: 36%;
+    opacity: 0.4;
+    top: -74%;
+  }
+  to {
+    opacity: 0;
+    top: 114%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(84), #phone.Rain .rain:nth-of-type(84) {
+  animation-name: rain-84;
+  animation-delay: 7s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 53%;
+  opacity: 0.46;
+  top: -98%;
+}
+@keyframes rain-84 {
+  from {
+    left: 53%;
+    opacity: 0.46;
+    top: -98%;
+  }
+  to {
+    opacity: 0;
+    top: 138%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(85), #phone.Rain .rain:nth-of-type(85) {
+  animation-name: rain-85;
+  animation-delay: 11s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 80%;
+  opacity: 0.41;
+  top: -70%;
+}
+@keyframes rain-85 {
+  from {
+    left: 80%;
+    opacity: 0.41;
+    top: -70%;
+  }
+  to {
+    opacity: 0;
+    top: 110%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(86), #phone.Rain .rain:nth-of-type(86) {
+  animation-name: rain-86;
+  animation-delay: 1s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 73%;
+  opacity: 0.55;
+  top: -94%;
+}
+@keyframes rain-86 {
+  from {
+    left: 73%;
+    opacity: 0.55;
+    top: -94%;
+  }
+  to {
+    opacity: 0;
+    top: 134%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(87), #phone.Rain .rain:nth-of-type(87) {
+  animation-name: rain-87;
+  animation-delay: 12s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 71%;
+  opacity: 0.52;
+  top: -81%;
+}
+@keyframes rain-87 {
+  from {
+    left: 71%;
+    opacity: 0.52;
+    top: -81%;
+  }
+  to {
+    opacity: 0;
+    top: 121%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(88), #phone.Rain .rain:nth-of-type(88) {
+  animation-name: rain-88;
+  animation-delay: 15s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 19%;
+  opacity: 0.59;
+  top: -75%;
+}
+@keyframes rain-88 {
+  from {
+    left: 19%;
+    opacity: 0.59;
+    top: -75%;
+  }
+  to {
+    opacity: 0;
+    top: 115%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(89), #phone.Rain .rain:nth-of-type(89) {
+  animation-name: rain-89;
+  animation-delay: 16s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 45%;
+  opacity: 0.36;
+  top: -64%;
+}
+@keyframes rain-89 {
+  from {
+    left: 45%;
+    opacity: 0.36;
+    top: -64%;
+  }
+  to {
+    opacity: 0;
+    top: 104%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(90), #phone.Rain .rain:nth-of-type(90) {
+  animation-name: rain-90;
+  animation-delay: 10s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 58%;
+  opacity: 0.52;
+  top: -60%;
+}
+@keyframes rain-90 {
+  from {
+    left: 58%;
+    opacity: 0.52;
+    top: -60%;
+  }
+  to {
+    opacity: 0;
+    top: 100%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(91), #phone.Rain .rain:nth-of-type(91) {
+  animation-name: rain-91;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 35%;
+  opacity: 0.32;
+  top: -87%;
+}
+@keyframes rain-91 {
+  from {
+    left: 35%;
+    opacity: 0.32;
+    top: -87%;
+  }
+  to {
+    opacity: 0;
+    top: 127%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(92), #phone.Rain .rain:nth-of-type(92) {
+  animation-name: rain-92;
+  animation-delay: 3s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 74%;
+  opacity: 0.53;
+  top: -83%;
+}
+@keyframes rain-92 {
+  from {
+    left: 74%;
+    opacity: 0.53;
+    top: -83%;
+  }
+  to {
+    opacity: 0;
+    top: 123%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(93), #phone.Rain .rain:nth-of-type(93) {
+  animation-name: rain-93;
+  animation-delay: 17s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 19%;
+  opacity: 0.52;
+  top: -52%;
+}
+@keyframes rain-93 {
+  from {
+    left: 19%;
+    opacity: 0.52;
+    top: -52%;
+  }
+  to {
+    opacity: 0;
+    top: 92%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(94), #phone.Rain .rain:nth-of-type(94) {
+  animation-name: rain-94;
+  animation-delay: 10s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 77%;
+  opacity: 0.5;
+  top: -58%;
+}
+@keyframes rain-94 {
+  from {
+    left: 77%;
+    opacity: 0.5;
+    top: -58%;
+  }
+  to {
+    opacity: 0;
+    top: 98%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(95), #phone.Rain .rain:nth-of-type(95) {
+  animation-name: rain-95;
+  animation-delay: 1s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 48%;
+  opacity: 0.43;
+  top: -69%;
+}
+@keyframes rain-95 {
+  from {
+    left: 48%;
+    opacity: 0.43;
+    top: -69%;
+  }
+  to {
+    opacity: 0;
+    top: 109%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(96), #phone.Rain .rain:nth-of-type(96) {
+  animation-name: rain-96;
+  animation-delay: 14s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 6%;
+  opacity: 0.33;
+  top: -58%;
+}
+@keyframes rain-96 {
+  from {
+    left: 6%;
+    opacity: 0.33;
+    top: -58%;
+  }
+  to {
+    opacity: 0;
+    top: 98%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(97), #phone.Rain .rain:nth-of-type(97) {
+  animation-name: rain-97;
+  animation-delay: 16s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 24%;
+  opacity: 0.5;
+  top: -96%;
+}
+@keyframes rain-97 {
+  from {
+    left: 24%;
+    opacity: 0.5;
+    top: -96%;
+  }
+  to {
+    opacity: 0;
+    top: 136%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(98), #phone.Rain .rain:nth-of-type(98) {
+  animation-name: rain-98;
+  animation-delay: 18s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 75%;
+  opacity: 0.32;
+  top: -83%;
+}
+@keyframes rain-98 {
+  from {
+    left: 75%;
+    opacity: 0.32;
+    top: -83%;
+  }
+  to {
+    opacity: 0;
+    top: 123%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(99), #phone.Rain .rain:nth-of-type(99) {
+  animation-name: rain-99;
+  animation-delay: 18s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 83%;
+  opacity: 0.43;
+  top: -84%;
+}
+@keyframes rain-99 {
+  from {
+    left: 83%;
+    opacity: 0.43;
+    top: -84%;
+  }
+  to {
+    opacity: 0;
+    top: 124%;
+  }
+}
+#phone.Thunderstorm .rain:nth-of-type(100), #phone.Rain .rain:nth-of-type(100) {
+  animation-name: rain-100;
+  animation-delay: 14s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 24%;
+  opacity: 0.52;
+  top: -60%;
+}
+@keyframes rain-100 {
+  from {
+    left: 24%;
+    opacity: 0.52;
+    top: -60%;
+  }
+  to {
+    opacity: 0;
+    top: 100%;
+  }
+}
+
+#phone.Mist .wind, #phone.Smoke .wind, #phone.Haze .wind, #phone.Dust .wind, #phone.Fog .wind, #phone.Sand .wind, #phone.Ash .wind, #phone.Squall .wind, #phone.Tornado .wind {
+  background: white;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  height: 2px;
+  position: absolute;
+  width: 35px;
+  border-radius: 100vh;
+  z-index: 1;
+}
+#phone.Mist .wind:nth-of-type(1), #phone.Smoke .wind:nth-of-type(1), #phone.Haze .wind:nth-of-type(1), #phone.Dust .wind:nth-of-type(1), #phone.Fog .wind:nth-of-type(1), #phone.Sand .wind:nth-of-type(1), #phone.Ash .wind:nth-of-type(1), #phone.Squall .wind:nth-of-type(1), #phone.Tornado .wind:nth-of-type(1) {
+  animation-name: wind-1;
+  animation-delay: 15s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 85%;
+  opacity: 0.35;
+  left: -55%;
+}
+@keyframes wind-1 {
+  from {
+    top: 85%;
+    opacity: 0.35;
+    left: -55%;
+  }
+  to {
+    opacity: 0;
+    left: 95%;
+  }
+}
+#phone.Mist .wind:nth-of-type(2), #phone.Smoke .wind:nth-of-type(2), #phone.Haze .wind:nth-of-type(2), #phone.Dust .wind:nth-of-type(2), #phone.Fog .wind:nth-of-type(2), #phone.Sand .wind:nth-of-type(2), #phone.Ash .wind:nth-of-type(2), #phone.Squall .wind:nth-of-type(2), #phone.Tornado .wind:nth-of-type(2) {
+  animation-name: wind-2;
+  animation-delay: 13s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 10%;
+  opacity: 0.59;
+  left: -90%;
+}
+@keyframes wind-2 {
+  from {
+    top: 10%;
+    opacity: 0.59;
+    left: -90%;
+  }
+  to {
+    opacity: 0;
+    left: 130%;
+  }
+}
+#phone.Mist .wind:nth-of-type(3), #phone.Smoke .wind:nth-of-type(3), #phone.Haze .wind:nth-of-type(3), #phone.Dust .wind:nth-of-type(3), #phone.Fog .wind:nth-of-type(3), #phone.Sand .wind:nth-of-type(3), #phone.Ash .wind:nth-of-type(3), #phone.Squall .wind:nth-of-type(3), #phone.Tornado .wind:nth-of-type(3) {
+  animation-name: wind-3;
+  animation-delay: 0s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 29%;
+  opacity: 0.51;
+  left: -55%;
+}
+@keyframes wind-3 {
+  from {
+    top: 29%;
+    opacity: 0.51;
+    left: -55%;
+  }
+  to {
+    opacity: 0;
+    left: 95%;
+  }
+}
+#phone.Mist .wind:nth-of-type(4), #phone.Smoke .wind:nth-of-type(4), #phone.Haze .wind:nth-of-type(4), #phone.Dust .wind:nth-of-type(4), #phone.Fog .wind:nth-of-type(4), #phone.Sand .wind:nth-of-type(4), #phone.Ash .wind:nth-of-type(4), #phone.Squall .wind:nth-of-type(4), #phone.Tornado .wind:nth-of-type(4) {
+  animation-name: wind-4;
+  animation-delay: 5s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 53%;
+  opacity: 0.4;
+  left: -84%;
+}
+@keyframes wind-4 {
+  from {
+    top: 53%;
+    opacity: 0.4;
+    left: -84%;
+  }
+  to {
+    opacity: 0;
+    left: 124%;
+  }
+}
+#phone.Mist .wind:nth-of-type(5), #phone.Smoke .wind:nth-of-type(5), #phone.Haze .wind:nth-of-type(5), #phone.Dust .wind:nth-of-type(5), #phone.Fog .wind:nth-of-type(5), #phone.Sand .wind:nth-of-type(5), #phone.Ash .wind:nth-of-type(5), #phone.Squall .wind:nth-of-type(5), #phone.Tornado .wind:nth-of-type(5) {
+  animation-name: wind-5;
+  animation-delay: 17s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 28%;
+  opacity: 0.48;
+  left: -77%;
+}
+@keyframes wind-5 {
+  from {
+    top: 28%;
+    opacity: 0.48;
+    left: -77%;
+  }
+  to {
+    opacity: 0;
+    left: 117%;
+  }
+}
+#phone.Mist .wind:nth-of-type(6), #phone.Smoke .wind:nth-of-type(6), #phone.Haze .wind:nth-of-type(6), #phone.Dust .wind:nth-of-type(6), #phone.Fog .wind:nth-of-type(6), #phone.Sand .wind:nth-of-type(6), #phone.Ash .wind:nth-of-type(6), #phone.Squall .wind:nth-of-type(6), #phone.Tornado .wind:nth-of-type(6) {
+  animation-name: wind-6;
+  animation-delay: 8s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 98%;
+  opacity: 0.47;
+  left: -71%;
+}
+@keyframes wind-6 {
+  from {
+    top: 98%;
+    opacity: 0.47;
+    left: -71%;
+  }
+  to {
+    opacity: 0;
+    left: 111%;
+  }
+}
+#phone.Mist .wind:nth-of-type(7), #phone.Smoke .wind:nth-of-type(7), #phone.Haze .wind:nth-of-type(7), #phone.Dust .wind:nth-of-type(7), #phone.Fog .wind:nth-of-type(7), #phone.Sand .wind:nth-of-type(7), #phone.Ash .wind:nth-of-type(7), #phone.Squall .wind:nth-of-type(7), #phone.Tornado .wind:nth-of-type(7) {
+  animation-name: wind-7;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 46%;
+  opacity: 0.32;
+  left: -51%;
+}
+@keyframes wind-7 {
+  from {
+    top: 46%;
+    opacity: 0.32;
+    left: -51%;
+  }
+  to {
+    opacity: 0;
+    left: 91%;
+  }
+}
+#phone.Mist .wind:nth-of-type(8), #phone.Smoke .wind:nth-of-type(8), #phone.Haze .wind:nth-of-type(8), #phone.Dust .wind:nth-of-type(8), #phone.Fog .wind:nth-of-type(8), #phone.Sand .wind:nth-of-type(8), #phone.Ash .wind:nth-of-type(8), #phone.Squall .wind:nth-of-type(8), #phone.Tornado .wind:nth-of-type(8) {
+  animation-name: wind-8;
+  animation-delay: 19s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 96%;
+  opacity: 0.5;
+  left: -90%;
+}
+@keyframes wind-8 {
+  from {
+    top: 96%;
+    opacity: 0.5;
+    left: -90%;
+  }
+  to {
+    opacity: 0;
+    left: 130%;
+  }
+}
+#phone.Mist .wind:nth-of-type(9), #phone.Smoke .wind:nth-of-type(9), #phone.Haze .wind:nth-of-type(9), #phone.Dust .wind:nth-of-type(9), #phone.Fog .wind:nth-of-type(9), #phone.Sand .wind:nth-of-type(9), #phone.Ash .wind:nth-of-type(9), #phone.Squall .wind:nth-of-type(9), #phone.Tornado .wind:nth-of-type(9) {
+  animation-name: wind-9;
+  animation-delay: 6s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 75%;
+  opacity: 0.32;
+  left: -100%;
+}
+@keyframes wind-9 {
+  from {
+    top: 75%;
+    opacity: 0.32;
+    left: -100%;
+  }
+  to {
+    opacity: 0;
+    left: 140%;
+  }
+}
+#phone.Mist .wind:nth-of-type(10), #phone.Smoke .wind:nth-of-type(10), #phone.Haze .wind:nth-of-type(10), #phone.Dust .wind:nth-of-type(10), #phone.Fog .wind:nth-of-type(10), #phone.Sand .wind:nth-of-type(10), #phone.Ash .wind:nth-of-type(10), #phone.Squall .wind:nth-of-type(10), #phone.Tornado .wind:nth-of-type(10) {
+  animation-name: wind-10;
+  animation-delay: 5s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 72%;
+  opacity: 0.55;
+  left: -71%;
+}
+@keyframes wind-10 {
+  from {
+    top: 72%;
+    opacity: 0.55;
+    left: -71%;
+  }
+  to {
+    opacity: 0;
+    left: 111%;
+  }
+}
+#phone.Mist .wind:nth-of-type(11), #phone.Smoke .wind:nth-of-type(11), #phone.Haze .wind:nth-of-type(11), #phone.Dust .wind:nth-of-type(11), #phone.Fog .wind:nth-of-type(11), #phone.Sand .wind:nth-of-type(11), #phone.Ash .wind:nth-of-type(11), #phone.Squall .wind:nth-of-type(11), #phone.Tornado .wind:nth-of-type(11) {
+  animation-name: wind-11;
+  animation-delay: 2s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 97%;
+  opacity: 0.46;
+  left: -57%;
+}
+@keyframes wind-11 {
+  from {
+    top: 97%;
+    opacity: 0.46;
+    left: -57%;
+  }
+  to {
+    opacity: 0;
+    left: 97%;
+  }
+}
+#phone.Mist .wind:nth-of-type(12), #phone.Smoke .wind:nth-of-type(12), #phone.Haze .wind:nth-of-type(12), #phone.Dust .wind:nth-of-type(12), #phone.Fog .wind:nth-of-type(12), #phone.Sand .wind:nth-of-type(12), #phone.Ash .wind:nth-of-type(12), #phone.Squall .wind:nth-of-type(12), #phone.Tornado .wind:nth-of-type(12) {
+  animation-name: wind-12;
+  animation-delay: 14s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 29%;
+  opacity: 0.47;
+  left: -64%;
+}
+@keyframes wind-12 {
+  from {
+    top: 29%;
+    opacity: 0.47;
+    left: -64%;
+  }
+  to {
+    opacity: 0;
+    left: 104%;
+  }
+}
+#phone.Mist .wind:nth-of-type(13), #phone.Smoke .wind:nth-of-type(13), #phone.Haze .wind:nth-of-type(13), #phone.Dust .wind:nth-of-type(13), #phone.Fog .wind:nth-of-type(13), #phone.Sand .wind:nth-of-type(13), #phone.Ash .wind:nth-of-type(13), #phone.Squall .wind:nth-of-type(13), #phone.Tornado .wind:nth-of-type(13) {
+  animation-name: wind-13;
+  animation-delay: 3s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 35%;
+  opacity: 0.49;
+  left: -67%;
+}
+@keyframes wind-13 {
+  from {
+    top: 35%;
+    opacity: 0.49;
+    left: -67%;
+  }
+  to {
+    opacity: 0;
+    left: 107%;
+  }
+}
+#phone.Mist .wind:nth-of-type(14), #phone.Smoke .wind:nth-of-type(14), #phone.Haze .wind:nth-of-type(14), #phone.Dust .wind:nth-of-type(14), #phone.Fog .wind:nth-of-type(14), #phone.Sand .wind:nth-of-type(14), #phone.Ash .wind:nth-of-type(14), #phone.Squall .wind:nth-of-type(14), #phone.Tornado .wind:nth-of-type(14) {
+  animation-name: wind-14;
+  animation-delay: 10s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 66%;
+  opacity: 0.36;
+  left: -82%;
+}
+@keyframes wind-14 {
+  from {
+    top: 66%;
+    opacity: 0.36;
+    left: -82%;
+  }
+  to {
+    opacity: 0;
+    left: 122%;
+  }
+}
+#phone.Mist .wind:nth-of-type(15), #phone.Smoke .wind:nth-of-type(15), #phone.Haze .wind:nth-of-type(15), #phone.Dust .wind:nth-of-type(15), #phone.Fog .wind:nth-of-type(15), #phone.Sand .wind:nth-of-type(15), #phone.Ash .wind:nth-of-type(15), #phone.Squall .wind:nth-of-type(15), #phone.Tornado .wind:nth-of-type(15) {
+  animation-name: wind-15;
+  animation-delay: 3s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 88%;
+  opacity: 0.5;
+  left: -96%;
+}
+@keyframes wind-15 {
+  from {
+    top: 88%;
+    opacity: 0.5;
+    left: -96%;
+  }
+  to {
+    opacity: 0;
+    left: 136%;
+  }
+}
+#phone.Mist .wind:nth-of-type(16), #phone.Smoke .wind:nth-of-type(16), #phone.Haze .wind:nth-of-type(16), #phone.Dust .wind:nth-of-type(16), #phone.Fog .wind:nth-of-type(16), #phone.Sand .wind:nth-of-type(16), #phone.Ash .wind:nth-of-type(16), #phone.Squall .wind:nth-of-type(16), #phone.Tornado .wind:nth-of-type(16) {
+  animation-name: wind-16;
+  animation-delay: 12s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 74%;
+  opacity: 0.32;
+  left: -87%;
+}
+@keyframes wind-16 {
+  from {
+    top: 74%;
+    opacity: 0.32;
+    left: -87%;
+  }
+  to {
+    opacity: 0;
+    left: 127%;
+  }
+}
+#phone.Mist .wind:nth-of-type(17), #phone.Smoke .wind:nth-of-type(17), #phone.Haze .wind:nth-of-type(17), #phone.Dust .wind:nth-of-type(17), #phone.Fog .wind:nth-of-type(17), #phone.Sand .wind:nth-of-type(17), #phone.Ash .wind:nth-of-type(17), #phone.Squall .wind:nth-of-type(17), #phone.Tornado .wind:nth-of-type(17) {
+  animation-name: wind-17;
+  animation-delay: 19s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 11%;
+  opacity: 0.58;
+  left: -57%;
+}
+@keyframes wind-17 {
+  from {
+    top: 11%;
+    opacity: 0.58;
+    left: -57%;
+  }
+  to {
+    opacity: 0;
+    left: 97%;
+  }
+}
+#phone.Mist .wind:nth-of-type(18), #phone.Smoke .wind:nth-of-type(18), #phone.Haze .wind:nth-of-type(18), #phone.Dust .wind:nth-of-type(18), #phone.Fog .wind:nth-of-type(18), #phone.Sand .wind:nth-of-type(18), #phone.Ash .wind:nth-of-type(18), #phone.Squall .wind:nth-of-type(18), #phone.Tornado .wind:nth-of-type(18) {
+  animation-name: wind-18;
+  animation-delay: 13s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 61%;
+  opacity: 0.36;
+  left: -91%;
+}
+@keyframes wind-18 {
+  from {
+    top: 61%;
+    opacity: 0.36;
+    left: -91%;
+  }
+  to {
+    opacity: 0;
+    left: 131%;
+  }
+}
+#phone.Mist .wind:nth-of-type(19), #phone.Smoke .wind:nth-of-type(19), #phone.Haze .wind:nth-of-type(19), #phone.Dust .wind:nth-of-type(19), #phone.Fog .wind:nth-of-type(19), #phone.Sand .wind:nth-of-type(19), #phone.Ash .wind:nth-of-type(19), #phone.Squall .wind:nth-of-type(19), #phone.Tornado .wind:nth-of-type(19) {
+  animation-name: wind-19;
+  animation-delay: 17s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 98%;
+  opacity: 0.57;
+  left: -51%;
+}
+@keyframes wind-19 {
+  from {
+    top: 98%;
+    opacity: 0.57;
+    left: -51%;
+  }
+  to {
+    opacity: 0;
+    left: 91%;
+  }
+}
+#phone.Mist .wind:nth-of-type(20), #phone.Smoke .wind:nth-of-type(20), #phone.Haze .wind:nth-of-type(20), #phone.Dust .wind:nth-of-type(20), #phone.Fog .wind:nth-of-type(20), #phone.Sand .wind:nth-of-type(20), #phone.Ash .wind:nth-of-type(20), #phone.Squall .wind:nth-of-type(20), #phone.Tornado .wind:nth-of-type(20) {
+  animation-name: wind-20;
+  animation-delay: 16s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 50%;
+  opacity: 0.45;
+  left: -75%;
+}
+@keyframes wind-20 {
+  from {
+    top: 50%;
+    opacity: 0.45;
+    left: -75%;
+  }
+  to {
+    opacity: 0;
+    left: 115%;
+  }
+}
+#phone.Mist .wind:nth-of-type(21), #phone.Smoke .wind:nth-of-type(21), #phone.Haze .wind:nth-of-type(21), #phone.Dust .wind:nth-of-type(21), #phone.Fog .wind:nth-of-type(21), #phone.Sand .wind:nth-of-type(21), #phone.Ash .wind:nth-of-type(21), #phone.Squall .wind:nth-of-type(21), #phone.Tornado .wind:nth-of-type(21) {
+  animation-name: wind-21;
+  animation-delay: 16s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 13%;
+  opacity: 0.33;
+  left: -64%;
+}
+@keyframes wind-21 {
+  from {
+    top: 13%;
+    opacity: 0.33;
+    left: -64%;
+  }
+  to {
+    opacity: 0;
+    left: 104%;
+  }
+}
+#phone.Mist .wind:nth-of-type(22), #phone.Smoke .wind:nth-of-type(22), #phone.Haze .wind:nth-of-type(22), #phone.Dust .wind:nth-of-type(22), #phone.Fog .wind:nth-of-type(22), #phone.Sand .wind:nth-of-type(22), #phone.Ash .wind:nth-of-type(22), #phone.Squall .wind:nth-of-type(22), #phone.Tornado .wind:nth-of-type(22) {
+  animation-name: wind-22;
+  animation-delay: 18s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 65%;
+  opacity: 0.6;
+  left: -91%;
+}
+@keyframes wind-22 {
+  from {
+    top: 65%;
+    opacity: 0.6;
+    left: -91%;
+  }
+  to {
+    opacity: 0;
+    left: 131%;
+  }
+}
+#phone.Mist .wind:nth-of-type(23), #phone.Smoke .wind:nth-of-type(23), #phone.Haze .wind:nth-of-type(23), #phone.Dust .wind:nth-of-type(23), #phone.Fog .wind:nth-of-type(23), #phone.Sand .wind:nth-of-type(23), #phone.Ash .wind:nth-of-type(23), #phone.Squall .wind:nth-of-type(23), #phone.Tornado .wind:nth-of-type(23) {
+  animation-name: wind-23;
+  animation-delay: 19s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 6%;
+  opacity: 0.47;
+  left: -61%;
+}
+@keyframes wind-23 {
+  from {
+    top: 6%;
+    opacity: 0.47;
+    left: -61%;
+  }
+  to {
+    opacity: 0;
+    left: 101%;
+  }
+}
+#phone.Mist .wind:nth-of-type(24), #phone.Smoke .wind:nth-of-type(24), #phone.Haze .wind:nth-of-type(24), #phone.Dust .wind:nth-of-type(24), #phone.Fog .wind:nth-of-type(24), #phone.Sand .wind:nth-of-type(24), #phone.Ash .wind:nth-of-type(24), #phone.Squall .wind:nth-of-type(24), #phone.Tornado .wind:nth-of-type(24) {
+  animation-name: wind-24;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 85%;
+  opacity: 0.57;
+  left: -86%;
+}
+@keyframes wind-24 {
+  from {
+    top: 85%;
+    opacity: 0.57;
+    left: -86%;
+  }
+  to {
+    opacity: 0;
+    left: 126%;
+  }
+}
+#phone.Mist .wind:nth-of-type(25), #phone.Smoke .wind:nth-of-type(25), #phone.Haze .wind:nth-of-type(25), #phone.Dust .wind:nth-of-type(25), #phone.Fog .wind:nth-of-type(25), #phone.Sand .wind:nth-of-type(25), #phone.Ash .wind:nth-of-type(25), #phone.Squall .wind:nth-of-type(25), #phone.Tornado .wind:nth-of-type(25) {
+  animation-name: wind-25;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 62%;
+  opacity: 0.38;
+  left: -78%;
+}
+@keyframes wind-25 {
+  from {
+    top: 62%;
+    opacity: 0.38;
+    left: -78%;
+  }
+  to {
+    opacity: 0;
+    left: 118%;
+  }
+}
+#phone.Mist .wind:nth-of-type(26), #phone.Smoke .wind:nth-of-type(26), #phone.Haze .wind:nth-of-type(26), #phone.Dust .wind:nth-of-type(26), #phone.Fog .wind:nth-of-type(26), #phone.Sand .wind:nth-of-type(26), #phone.Ash .wind:nth-of-type(26), #phone.Squall .wind:nth-of-type(26), #phone.Tornado .wind:nth-of-type(26) {
+  animation-name: wind-26;
+  animation-delay: 6s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 34%;
+  opacity: 0.45;
+  left: -92%;
+}
+@keyframes wind-26 {
+  from {
+    top: 34%;
+    opacity: 0.45;
+    left: -92%;
+  }
+  to {
+    opacity: 0;
+    left: 132%;
+  }
+}
+#phone.Mist .wind:nth-of-type(27), #phone.Smoke .wind:nth-of-type(27), #phone.Haze .wind:nth-of-type(27), #phone.Dust .wind:nth-of-type(27), #phone.Fog .wind:nth-of-type(27), #phone.Sand .wind:nth-of-type(27), #phone.Ash .wind:nth-of-type(27), #phone.Squall .wind:nth-of-type(27), #phone.Tornado .wind:nth-of-type(27) {
+  animation-name: wind-27;
+  animation-delay: 7s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 96%;
+  opacity: 0.32;
+  left: -94%;
+}
+@keyframes wind-27 {
+  from {
+    top: 96%;
+    opacity: 0.32;
+    left: -94%;
+  }
+  to {
+    opacity: 0;
+    left: 134%;
+  }
+}
+#phone.Mist .wind:nth-of-type(28), #phone.Smoke .wind:nth-of-type(28), #phone.Haze .wind:nth-of-type(28), #phone.Dust .wind:nth-of-type(28), #phone.Fog .wind:nth-of-type(28), #phone.Sand .wind:nth-of-type(28), #phone.Ash .wind:nth-of-type(28), #phone.Squall .wind:nth-of-type(28), #phone.Tornado .wind:nth-of-type(28) {
+  animation-name: wind-28;
+  animation-delay: 10s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 18%;
+  opacity: 0.42;
+  left: -72%;
+}
+@keyframes wind-28 {
+  from {
+    top: 18%;
+    opacity: 0.42;
+    left: -72%;
+  }
+  to {
+    opacity: 0;
+    left: 112%;
+  }
+}
+#phone.Mist .wind:nth-of-type(29), #phone.Smoke .wind:nth-of-type(29), #phone.Haze .wind:nth-of-type(29), #phone.Dust .wind:nth-of-type(29), #phone.Fog .wind:nth-of-type(29), #phone.Sand .wind:nth-of-type(29), #phone.Ash .wind:nth-of-type(29), #phone.Squall .wind:nth-of-type(29), #phone.Tornado .wind:nth-of-type(29) {
+  animation-name: wind-29;
+  animation-delay: 19s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 13%;
+  opacity: 0.48;
+  left: -83%;
+}
+@keyframes wind-29 {
+  from {
+    top: 13%;
+    opacity: 0.48;
+    left: -83%;
+  }
+  to {
+    opacity: 0;
+    left: 123%;
+  }
+}
+#phone.Mist .wind:nth-of-type(30), #phone.Smoke .wind:nth-of-type(30), #phone.Haze .wind:nth-of-type(30), #phone.Dust .wind:nth-of-type(30), #phone.Fog .wind:nth-of-type(30), #phone.Sand .wind:nth-of-type(30), #phone.Ash .wind:nth-of-type(30), #phone.Squall .wind:nth-of-type(30), #phone.Tornado .wind:nth-of-type(30) {
+  animation-name: wind-30;
+  animation-delay: 5s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 100%;
+  opacity: 0.34;
+  left: -90%;
+}
+@keyframes wind-30 {
+  from {
+    top: 100%;
+    opacity: 0.34;
+    left: -90%;
+  }
+  to {
+    opacity: 0;
+    left: 130%;
+  }
+}
+#phone.Mist .wind:nth-of-type(31), #phone.Smoke .wind:nth-of-type(31), #phone.Haze .wind:nth-of-type(31), #phone.Dust .wind:nth-of-type(31), #phone.Fog .wind:nth-of-type(31), #phone.Sand .wind:nth-of-type(31), #phone.Ash .wind:nth-of-type(31), #phone.Squall .wind:nth-of-type(31), #phone.Tornado .wind:nth-of-type(31) {
+  animation-name: wind-31;
+  animation-delay: 17s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 51%;
+  opacity: 0.37;
+  left: -77%;
+}
+@keyframes wind-31 {
+  from {
+    top: 51%;
+    opacity: 0.37;
+    left: -77%;
+  }
+  to {
+    opacity: 0;
+    left: 117%;
+  }
+}
+#phone.Mist .wind:nth-of-type(32), #phone.Smoke .wind:nth-of-type(32), #phone.Haze .wind:nth-of-type(32), #phone.Dust .wind:nth-of-type(32), #phone.Fog .wind:nth-of-type(32), #phone.Sand .wind:nth-of-type(32), #phone.Ash .wind:nth-of-type(32), #phone.Squall .wind:nth-of-type(32), #phone.Tornado .wind:nth-of-type(32) {
+  animation-name: wind-32;
+  animation-delay: 18s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 7%;
+  opacity: 0.39;
+  left: -87%;
+}
+@keyframes wind-32 {
+  from {
+    top: 7%;
+    opacity: 0.39;
+    left: -87%;
+  }
+  to {
+    opacity: 0;
+    left: 127%;
+  }
+}
+#phone.Mist .wind:nth-of-type(33), #phone.Smoke .wind:nth-of-type(33), #phone.Haze .wind:nth-of-type(33), #phone.Dust .wind:nth-of-type(33), #phone.Fog .wind:nth-of-type(33), #phone.Sand .wind:nth-of-type(33), #phone.Ash .wind:nth-of-type(33), #phone.Squall .wind:nth-of-type(33), #phone.Tornado .wind:nth-of-type(33) {
+  animation-name: wind-33;
+  animation-delay: 2s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 26%;
+  opacity: 0.49;
+  left: -51%;
+}
+@keyframes wind-33 {
+  from {
+    top: 26%;
+    opacity: 0.49;
+    left: -51%;
+  }
+  to {
+    opacity: 0;
+    left: 91%;
+  }
+}
+#phone.Mist .wind:nth-of-type(34), #phone.Smoke .wind:nth-of-type(34), #phone.Haze .wind:nth-of-type(34), #phone.Dust .wind:nth-of-type(34), #phone.Fog .wind:nth-of-type(34), #phone.Sand .wind:nth-of-type(34), #phone.Ash .wind:nth-of-type(34), #phone.Squall .wind:nth-of-type(34), #phone.Tornado .wind:nth-of-type(34) {
+  animation-name: wind-34;
+  animation-delay: 3s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 84%;
+  opacity: 0.53;
+  left: -54%;
+}
+@keyframes wind-34 {
+  from {
+    top: 84%;
+    opacity: 0.53;
+    left: -54%;
+  }
+  to {
+    opacity: 0;
+    left: 94%;
+  }
+}
+#phone.Mist .wind:nth-of-type(35), #phone.Smoke .wind:nth-of-type(35), #phone.Haze .wind:nth-of-type(35), #phone.Dust .wind:nth-of-type(35), #phone.Fog .wind:nth-of-type(35), #phone.Sand .wind:nth-of-type(35), #phone.Ash .wind:nth-of-type(35), #phone.Squall .wind:nth-of-type(35), #phone.Tornado .wind:nth-of-type(35) {
+  animation-name: wind-35;
+  animation-delay: 16s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 35%;
+  opacity: 0.41;
+  left: -87%;
+}
+@keyframes wind-35 {
+  from {
+    top: 35%;
+    opacity: 0.41;
+    left: -87%;
+  }
+  to {
+    opacity: 0;
+    left: 127%;
+  }
+}
+#phone.Mist .wind:nth-of-type(36), #phone.Smoke .wind:nth-of-type(36), #phone.Haze .wind:nth-of-type(36), #phone.Dust .wind:nth-of-type(36), #phone.Fog .wind:nth-of-type(36), #phone.Sand .wind:nth-of-type(36), #phone.Ash .wind:nth-of-type(36), #phone.Squall .wind:nth-of-type(36), #phone.Tornado .wind:nth-of-type(36) {
+  animation-name: wind-36;
+  animation-delay: 13s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 96%;
+  opacity: 0.46;
+  left: -54%;
+}
+@keyframes wind-36 {
+  from {
+    top: 96%;
+    opacity: 0.46;
+    left: -54%;
+  }
+  to {
+    opacity: 0;
+    left: 94%;
+  }
+}
+#phone.Mist .wind:nth-of-type(37), #phone.Smoke .wind:nth-of-type(37), #phone.Haze .wind:nth-of-type(37), #phone.Dust .wind:nth-of-type(37), #phone.Fog .wind:nth-of-type(37), #phone.Sand .wind:nth-of-type(37), #phone.Ash .wind:nth-of-type(37), #phone.Squall .wind:nth-of-type(37), #phone.Tornado .wind:nth-of-type(37) {
+  animation-name: wind-37;
+  animation-delay: 18s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 35%;
+  opacity: 0.52;
+  left: -59%;
+}
+@keyframes wind-37 {
+  from {
+    top: 35%;
+    opacity: 0.52;
+    left: -59%;
+  }
+  to {
+    opacity: 0;
+    left: 99%;
+  }
+}
+#phone.Mist .wind:nth-of-type(38), #phone.Smoke .wind:nth-of-type(38), #phone.Haze .wind:nth-of-type(38), #phone.Dust .wind:nth-of-type(38), #phone.Fog .wind:nth-of-type(38), #phone.Sand .wind:nth-of-type(38), #phone.Ash .wind:nth-of-type(38), #phone.Squall .wind:nth-of-type(38), #phone.Tornado .wind:nth-of-type(38) {
+  animation-name: wind-38;
+  animation-delay: 6s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 62%;
+  opacity: 0.32;
+  left: -80%;
+}
+@keyframes wind-38 {
+  from {
+    top: 62%;
+    opacity: 0.32;
+    left: -80%;
+  }
+  to {
+    opacity: 0;
+    left: 120%;
+  }
+}
+#phone.Mist .wind:nth-of-type(39), #phone.Smoke .wind:nth-of-type(39), #phone.Haze .wind:nth-of-type(39), #phone.Dust .wind:nth-of-type(39), #phone.Fog .wind:nth-of-type(39), #phone.Sand .wind:nth-of-type(39), #phone.Ash .wind:nth-of-type(39), #phone.Squall .wind:nth-of-type(39), #phone.Tornado .wind:nth-of-type(39) {
+  animation-name: wind-39;
+  animation-delay: 10s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 76%;
+  opacity: 0.58;
+  left: -91%;
+}
+@keyframes wind-39 {
+  from {
+    top: 76%;
+    opacity: 0.58;
+    left: -91%;
+  }
+  to {
+    opacity: 0;
+    left: 131%;
+  }
+}
+#phone.Mist .wind:nth-of-type(40), #phone.Smoke .wind:nth-of-type(40), #phone.Haze .wind:nth-of-type(40), #phone.Dust .wind:nth-of-type(40), #phone.Fog .wind:nth-of-type(40), #phone.Sand .wind:nth-of-type(40), #phone.Ash .wind:nth-of-type(40), #phone.Squall .wind:nth-of-type(40), #phone.Tornado .wind:nth-of-type(40) {
+  animation-name: wind-40;
+  animation-delay: 3s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 39%;
+  opacity: 0.46;
+  left: -60%;
+}
+@keyframes wind-40 {
+  from {
+    top: 39%;
+    opacity: 0.46;
+    left: -60%;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+#phone.Mist .wind:nth-of-type(41), #phone.Smoke .wind:nth-of-type(41), #phone.Haze .wind:nth-of-type(41), #phone.Dust .wind:nth-of-type(41), #phone.Fog .wind:nth-of-type(41), #phone.Sand .wind:nth-of-type(41), #phone.Ash .wind:nth-of-type(41), #phone.Squall .wind:nth-of-type(41), #phone.Tornado .wind:nth-of-type(41) {
+  animation-name: wind-41;
+  animation-delay: 15s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 94%;
+  opacity: 0.37;
+  left: -51%;
+}
+@keyframes wind-41 {
+  from {
+    top: 94%;
+    opacity: 0.37;
+    left: -51%;
+  }
+  to {
+    opacity: 0;
+    left: 91%;
+  }
+}
+#phone.Mist .wind:nth-of-type(42), #phone.Smoke .wind:nth-of-type(42), #phone.Haze .wind:nth-of-type(42), #phone.Dust .wind:nth-of-type(42), #phone.Fog .wind:nth-of-type(42), #phone.Sand .wind:nth-of-type(42), #phone.Ash .wind:nth-of-type(42), #phone.Squall .wind:nth-of-type(42), #phone.Tornado .wind:nth-of-type(42) {
+  animation-name: wind-42;
+  animation-delay: 3s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 70%;
+  opacity: 0.48;
+  left: -52%;
+}
+@keyframes wind-42 {
+  from {
+    top: 70%;
+    opacity: 0.48;
+    left: -52%;
+  }
+  to {
+    opacity: 0;
+    left: 92%;
+  }
+}
+#phone.Mist .wind:nth-of-type(43), #phone.Smoke .wind:nth-of-type(43), #phone.Haze .wind:nth-of-type(43), #phone.Dust .wind:nth-of-type(43), #phone.Fog .wind:nth-of-type(43), #phone.Sand .wind:nth-of-type(43), #phone.Ash .wind:nth-of-type(43), #phone.Squall .wind:nth-of-type(43), #phone.Tornado .wind:nth-of-type(43) {
+  animation-name: wind-43;
+  animation-delay: 9s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 30%;
+  opacity: 0.59;
+  left: -81%;
+}
+@keyframes wind-43 {
+  from {
+    top: 30%;
+    opacity: 0.59;
+    left: -81%;
+  }
+  to {
+    opacity: 0;
+    left: 121%;
+  }
+}
+#phone.Mist .wind:nth-of-type(44), #phone.Smoke .wind:nth-of-type(44), #phone.Haze .wind:nth-of-type(44), #phone.Dust .wind:nth-of-type(44), #phone.Fog .wind:nth-of-type(44), #phone.Sand .wind:nth-of-type(44), #phone.Ash .wind:nth-of-type(44), #phone.Squall .wind:nth-of-type(44), #phone.Tornado .wind:nth-of-type(44) {
+  animation-name: wind-44;
+  animation-delay: 2s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 49%;
+  opacity: 0.46;
+  left: -82%;
+}
+@keyframes wind-44 {
+  from {
+    top: 49%;
+    opacity: 0.46;
+    left: -82%;
+  }
+  to {
+    opacity: 0;
+    left: 122%;
+  }
+}
+#phone.Mist .wind:nth-of-type(45), #phone.Smoke .wind:nth-of-type(45), #phone.Haze .wind:nth-of-type(45), #phone.Dust .wind:nth-of-type(45), #phone.Fog .wind:nth-of-type(45), #phone.Sand .wind:nth-of-type(45), #phone.Ash .wind:nth-of-type(45), #phone.Squall .wind:nth-of-type(45), #phone.Tornado .wind:nth-of-type(45) {
+  animation-name: wind-45;
+  animation-delay: 1s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 6%;
+  opacity: 0.55;
+  left: -55%;
+}
+@keyframes wind-45 {
+  from {
+    top: 6%;
+    opacity: 0.55;
+    left: -55%;
+  }
+  to {
+    opacity: 0;
+    left: 95%;
+  }
+}
+#phone.Mist .wind:nth-of-type(46), #phone.Smoke .wind:nth-of-type(46), #phone.Haze .wind:nth-of-type(46), #phone.Dust .wind:nth-of-type(46), #phone.Fog .wind:nth-of-type(46), #phone.Sand .wind:nth-of-type(46), #phone.Ash .wind:nth-of-type(46), #phone.Squall .wind:nth-of-type(46), #phone.Tornado .wind:nth-of-type(46) {
+  animation-name: wind-46;
+  animation-delay: 17s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 77%;
+  opacity: 0.35;
+  left: -59%;
+}
+@keyframes wind-46 {
+  from {
+    top: 77%;
+    opacity: 0.35;
+    left: -59%;
+  }
+  to {
+    opacity: 0;
+    left: 99%;
+  }
+}
+#phone.Mist .wind:nth-of-type(47), #phone.Smoke .wind:nth-of-type(47), #phone.Haze .wind:nth-of-type(47), #phone.Dust .wind:nth-of-type(47), #phone.Fog .wind:nth-of-type(47), #phone.Sand .wind:nth-of-type(47), #phone.Ash .wind:nth-of-type(47), #phone.Squall .wind:nth-of-type(47), #phone.Tornado .wind:nth-of-type(47) {
+  animation-name: wind-47;
+  animation-delay: 17s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 79%;
+  opacity: 0.55;
+  left: -80%;
+}
+@keyframes wind-47 {
+  from {
+    top: 79%;
+    opacity: 0.55;
+    left: -80%;
+  }
+  to {
+    opacity: 0;
+    left: 120%;
+  }
+}
+#phone.Mist .wind:nth-of-type(48), #phone.Smoke .wind:nth-of-type(48), #phone.Haze .wind:nth-of-type(48), #phone.Dust .wind:nth-of-type(48), #phone.Fog .wind:nth-of-type(48), #phone.Sand .wind:nth-of-type(48), #phone.Ash .wind:nth-of-type(48), #phone.Squall .wind:nth-of-type(48), #phone.Tornado .wind:nth-of-type(48) {
+  animation-name: wind-48;
+  animation-delay: 4s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 83%;
+  opacity: 0.38;
+  left: -64%;
+}
+@keyframes wind-48 {
+  from {
+    top: 83%;
+    opacity: 0.38;
+    left: -64%;
+  }
+  to {
+    opacity: 0;
+    left: 104%;
+  }
+}
+#phone.Mist .wind:nth-of-type(49), #phone.Smoke .wind:nth-of-type(49), #phone.Haze .wind:nth-of-type(49), #phone.Dust .wind:nth-of-type(49), #phone.Fog .wind:nth-of-type(49), #phone.Sand .wind:nth-of-type(49), #phone.Ash .wind:nth-of-type(49), #phone.Squall .wind:nth-of-type(49), #phone.Tornado .wind:nth-of-type(49) {
+  animation-name: wind-49;
+  animation-delay: 17s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 4%;
+  opacity: 0.45;
+  left: -90%;
+}
+@keyframes wind-49 {
+  from {
+    top: 4%;
+    opacity: 0.45;
+    left: -90%;
+  }
+  to {
+    opacity: 0;
+    left: 130%;
+  }
+}
+#phone.Mist .wind:nth-of-type(50), #phone.Smoke .wind:nth-of-type(50), #phone.Haze .wind:nth-of-type(50), #phone.Dust .wind:nth-of-type(50), #phone.Fog .wind:nth-of-type(50), #phone.Sand .wind:nth-of-type(50), #phone.Ash .wind:nth-of-type(50), #phone.Squall .wind:nth-of-type(50), #phone.Tornado .wind:nth-of-type(50) {
+  animation-name: wind-50;
+  animation-delay: 13s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 12%;
+  opacity: 0.52;
+  left: -94%;
+}
+@keyframes wind-50 {
+  from {
+    top: 12%;
+    opacity: 0.52;
+    left: -94%;
+  }
+  to {
+    opacity: 0;
+    left: 134%;
+  }
+}
+#phone.Mist .wind:nth-of-type(51), #phone.Smoke .wind:nth-of-type(51), #phone.Haze .wind:nth-of-type(51), #phone.Dust .wind:nth-of-type(51), #phone.Fog .wind:nth-of-type(51), #phone.Sand .wind:nth-of-type(51), #phone.Ash .wind:nth-of-type(51), #phone.Squall .wind:nth-of-type(51), #phone.Tornado .wind:nth-of-type(51) {
+  animation-name: wind-51;
+  animation-delay: 3s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 37%;
+  opacity: 0.38;
+  left: -63%;
+}
+@keyframes wind-51 {
+  from {
+    top: 37%;
+    opacity: 0.38;
+    left: -63%;
+  }
+  to {
+    opacity: 0;
+    left: 103%;
+  }
+}
+#phone.Mist .wind:nth-of-type(52), #phone.Smoke .wind:nth-of-type(52), #phone.Haze .wind:nth-of-type(52), #phone.Dust .wind:nth-of-type(52), #phone.Fog .wind:nth-of-type(52), #phone.Sand .wind:nth-of-type(52), #phone.Ash .wind:nth-of-type(52), #phone.Squall .wind:nth-of-type(52), #phone.Tornado .wind:nth-of-type(52) {
+  animation-name: wind-52;
+  animation-delay: 5s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 48%;
+  opacity: 0.44;
+  left: -56%;
+}
+@keyframes wind-52 {
+  from {
+    top: 48%;
+    opacity: 0.44;
+    left: -56%;
+  }
+  to {
+    opacity: 0;
+    left: 96%;
+  }
+}
+#phone.Mist .wind:nth-of-type(53), #phone.Smoke .wind:nth-of-type(53), #phone.Haze .wind:nth-of-type(53), #phone.Dust .wind:nth-of-type(53), #phone.Fog .wind:nth-of-type(53), #phone.Sand .wind:nth-of-type(53), #phone.Ash .wind:nth-of-type(53), #phone.Squall .wind:nth-of-type(53), #phone.Tornado .wind:nth-of-type(53) {
+  animation-name: wind-53;
+  animation-delay: 17s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 54%;
+  opacity: 0.47;
+  left: -57%;
+}
+@keyframes wind-53 {
+  from {
+    top: 54%;
+    opacity: 0.47;
+    left: -57%;
+  }
+  to {
+    opacity: 0;
+    left: 97%;
+  }
+}
+#phone.Mist .wind:nth-of-type(54), #phone.Smoke .wind:nth-of-type(54), #phone.Haze .wind:nth-of-type(54), #phone.Dust .wind:nth-of-type(54), #phone.Fog .wind:nth-of-type(54), #phone.Sand .wind:nth-of-type(54), #phone.Ash .wind:nth-of-type(54), #phone.Squall .wind:nth-of-type(54), #phone.Tornado .wind:nth-of-type(54) {
+  animation-name: wind-54;
+  animation-delay: 15s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 1%;
+  opacity: 0.6;
+  left: -79%;
+}
+@keyframes wind-54 {
+  from {
+    top: 1%;
+    opacity: 0.6;
+    left: -79%;
+  }
+  to {
+    opacity: 0;
+    left: 119%;
+  }
+}
+#phone.Mist .wind:nth-of-type(55), #phone.Smoke .wind:nth-of-type(55), #phone.Haze .wind:nth-of-type(55), #phone.Dust .wind:nth-of-type(55), #phone.Fog .wind:nth-of-type(55), #phone.Sand .wind:nth-of-type(55), #phone.Ash .wind:nth-of-type(55), #phone.Squall .wind:nth-of-type(55), #phone.Tornado .wind:nth-of-type(55) {
+  animation-name: wind-55;
+  animation-delay: 1s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 71%;
+  opacity: 0.31;
+  left: -73%;
+}
+@keyframes wind-55 {
+  from {
+    top: 71%;
+    opacity: 0.31;
+    left: -73%;
+  }
+  to {
+    opacity: 0;
+    left: 113%;
+  }
+}
+#phone.Mist .wind:nth-of-type(56), #phone.Smoke .wind:nth-of-type(56), #phone.Haze .wind:nth-of-type(56), #phone.Dust .wind:nth-of-type(56), #phone.Fog .wind:nth-of-type(56), #phone.Sand .wind:nth-of-type(56), #phone.Ash .wind:nth-of-type(56), #phone.Squall .wind:nth-of-type(56), #phone.Tornado .wind:nth-of-type(56) {
+  animation-name: wind-56;
+  animation-delay: 17s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 55%;
+  opacity: 0.39;
+  left: -64%;
+}
+@keyframes wind-56 {
+  from {
+    top: 55%;
+    opacity: 0.39;
+    left: -64%;
+  }
+  to {
+    opacity: 0;
+    left: 104%;
+  }
+}
+#phone.Mist .wind:nth-of-type(57), #phone.Smoke .wind:nth-of-type(57), #phone.Haze .wind:nth-of-type(57), #phone.Dust .wind:nth-of-type(57), #phone.Fog .wind:nth-of-type(57), #phone.Sand .wind:nth-of-type(57), #phone.Ash .wind:nth-of-type(57), #phone.Squall .wind:nth-of-type(57), #phone.Tornado .wind:nth-of-type(57) {
+  animation-name: wind-57;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 65%;
+  opacity: 0.43;
+  left: -77%;
+}
+@keyframes wind-57 {
+  from {
+    top: 65%;
+    opacity: 0.43;
+    left: -77%;
+  }
+  to {
+    opacity: 0;
+    left: 117%;
+  }
+}
+#phone.Mist .wind:nth-of-type(58), #phone.Smoke .wind:nth-of-type(58), #phone.Haze .wind:nth-of-type(58), #phone.Dust .wind:nth-of-type(58), #phone.Fog .wind:nth-of-type(58), #phone.Sand .wind:nth-of-type(58), #phone.Ash .wind:nth-of-type(58), #phone.Squall .wind:nth-of-type(58), #phone.Tornado .wind:nth-of-type(58) {
+  animation-name: wind-58;
+  animation-delay: 1s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 86%;
+  opacity: 0.6;
+  left: -93%;
+}
+@keyframes wind-58 {
+  from {
+    top: 86%;
+    opacity: 0.6;
+    left: -93%;
+  }
+  to {
+    opacity: 0;
+    left: 133%;
+  }
+}
+#phone.Mist .wind:nth-of-type(59), #phone.Smoke .wind:nth-of-type(59), #phone.Haze .wind:nth-of-type(59), #phone.Dust .wind:nth-of-type(59), #phone.Fog .wind:nth-of-type(59), #phone.Sand .wind:nth-of-type(59), #phone.Ash .wind:nth-of-type(59), #phone.Squall .wind:nth-of-type(59), #phone.Tornado .wind:nth-of-type(59) {
+  animation-name: wind-59;
+  animation-delay: 8s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 9%;
+  opacity: 0.53;
+  left: -89%;
+}
+@keyframes wind-59 {
+  from {
+    top: 9%;
+    opacity: 0.53;
+    left: -89%;
+  }
+  to {
+    opacity: 0;
+    left: 129%;
+  }
+}
+#phone.Mist .wind:nth-of-type(60), #phone.Smoke .wind:nth-of-type(60), #phone.Haze .wind:nth-of-type(60), #phone.Dust .wind:nth-of-type(60), #phone.Fog .wind:nth-of-type(60), #phone.Sand .wind:nth-of-type(60), #phone.Ash .wind:nth-of-type(60), #phone.Squall .wind:nth-of-type(60), #phone.Tornado .wind:nth-of-type(60) {
+  animation-name: wind-60;
+  animation-delay: 14s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 57%;
+  opacity: 0.54;
+  left: -56%;
+}
+@keyframes wind-60 {
+  from {
+    top: 57%;
+    opacity: 0.54;
+    left: -56%;
+  }
+  to {
+    opacity: 0;
+    left: 96%;
+  }
+}
+#phone.Mist .wind:nth-of-type(61), #phone.Smoke .wind:nth-of-type(61), #phone.Haze .wind:nth-of-type(61), #phone.Dust .wind:nth-of-type(61), #phone.Fog .wind:nth-of-type(61), #phone.Sand .wind:nth-of-type(61), #phone.Ash .wind:nth-of-type(61), #phone.Squall .wind:nth-of-type(61), #phone.Tornado .wind:nth-of-type(61) {
+  animation-name: wind-61;
+  animation-delay: 1s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 12%;
+  opacity: 0.5;
+  left: -98%;
+}
+@keyframes wind-61 {
+  from {
+    top: 12%;
+    opacity: 0.5;
+    left: -98%;
+  }
+  to {
+    opacity: 0;
+    left: 138%;
+  }
+}
+#phone.Mist .wind:nth-of-type(62), #phone.Smoke .wind:nth-of-type(62), #phone.Haze .wind:nth-of-type(62), #phone.Dust .wind:nth-of-type(62), #phone.Fog .wind:nth-of-type(62), #phone.Sand .wind:nth-of-type(62), #phone.Ash .wind:nth-of-type(62), #phone.Squall .wind:nth-of-type(62), #phone.Tornado .wind:nth-of-type(62) {
+  animation-name: wind-62;
+  animation-delay: 18s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 40%;
+  opacity: 0.51;
+  left: -90%;
+}
+@keyframes wind-62 {
+  from {
+    top: 40%;
+    opacity: 0.51;
+    left: -90%;
+  }
+  to {
+    opacity: 0;
+    left: 130%;
+  }
+}
+#phone.Mist .wind:nth-of-type(63), #phone.Smoke .wind:nth-of-type(63), #phone.Haze .wind:nth-of-type(63), #phone.Dust .wind:nth-of-type(63), #phone.Fog .wind:nth-of-type(63), #phone.Sand .wind:nth-of-type(63), #phone.Ash .wind:nth-of-type(63), #phone.Squall .wind:nth-of-type(63), #phone.Tornado .wind:nth-of-type(63) {
+  animation-name: wind-63;
+  animation-delay: 9s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 29%;
+  opacity: 0.46;
+  left: -89%;
+}
+@keyframes wind-63 {
+  from {
+    top: 29%;
+    opacity: 0.46;
+    left: -89%;
+  }
+  to {
+    opacity: 0;
+    left: 129%;
+  }
+}
+#phone.Mist .wind:nth-of-type(64), #phone.Smoke .wind:nth-of-type(64), #phone.Haze .wind:nth-of-type(64), #phone.Dust .wind:nth-of-type(64), #phone.Fog .wind:nth-of-type(64), #phone.Sand .wind:nth-of-type(64), #phone.Ash .wind:nth-of-type(64), #phone.Squall .wind:nth-of-type(64), #phone.Tornado .wind:nth-of-type(64) {
+  animation-name: wind-64;
+  animation-delay: 12s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 58%;
+  opacity: 0.33;
+  left: -76%;
+}
+@keyframes wind-64 {
+  from {
+    top: 58%;
+    opacity: 0.33;
+    left: -76%;
+  }
+  to {
+    opacity: 0;
+    left: 116%;
+  }
+}
+#phone.Mist .wind:nth-of-type(65), #phone.Smoke .wind:nth-of-type(65), #phone.Haze .wind:nth-of-type(65), #phone.Dust .wind:nth-of-type(65), #phone.Fog .wind:nth-of-type(65), #phone.Sand .wind:nth-of-type(65), #phone.Ash .wind:nth-of-type(65), #phone.Squall .wind:nth-of-type(65), #phone.Tornado .wind:nth-of-type(65) {
+  animation-name: wind-65;
+  animation-delay: 7s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 38%;
+  opacity: 0.56;
+  left: -80%;
+}
+@keyframes wind-65 {
+  from {
+    top: 38%;
+    opacity: 0.56;
+    left: -80%;
+  }
+  to {
+    opacity: 0;
+    left: 120%;
+  }
+}
+#phone.Mist .wind:nth-of-type(66), #phone.Smoke .wind:nth-of-type(66), #phone.Haze .wind:nth-of-type(66), #phone.Dust .wind:nth-of-type(66), #phone.Fog .wind:nth-of-type(66), #phone.Sand .wind:nth-of-type(66), #phone.Ash .wind:nth-of-type(66), #phone.Squall .wind:nth-of-type(66), #phone.Tornado .wind:nth-of-type(66) {
+  animation-name: wind-66;
+  animation-delay: 3s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 63%;
+  opacity: 0.35;
+  left: -88%;
+}
+@keyframes wind-66 {
+  from {
+    top: 63%;
+    opacity: 0.35;
+    left: -88%;
+  }
+  to {
+    opacity: 0;
+    left: 128%;
+  }
+}
+#phone.Mist .wind:nth-of-type(67), #phone.Smoke .wind:nth-of-type(67), #phone.Haze .wind:nth-of-type(67), #phone.Dust .wind:nth-of-type(67), #phone.Fog .wind:nth-of-type(67), #phone.Sand .wind:nth-of-type(67), #phone.Ash .wind:nth-of-type(67), #phone.Squall .wind:nth-of-type(67), #phone.Tornado .wind:nth-of-type(67) {
+  animation-name: wind-67;
+  animation-delay: 13s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 4%;
+  opacity: 0.32;
+  left: -69%;
+}
+@keyframes wind-67 {
+  from {
+    top: 4%;
+    opacity: 0.32;
+    left: -69%;
+  }
+  to {
+    opacity: 0;
+    left: 109%;
+  }
+}
+#phone.Mist .wind:nth-of-type(68), #phone.Smoke .wind:nth-of-type(68), #phone.Haze .wind:nth-of-type(68), #phone.Dust .wind:nth-of-type(68), #phone.Fog .wind:nth-of-type(68), #phone.Sand .wind:nth-of-type(68), #phone.Ash .wind:nth-of-type(68), #phone.Squall .wind:nth-of-type(68), #phone.Tornado .wind:nth-of-type(68) {
+  animation-name: wind-68;
+  animation-delay: 13s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 97%;
+  opacity: 0.36;
+  left: -69%;
+}
+@keyframes wind-68 {
+  from {
+    top: 97%;
+    opacity: 0.36;
+    left: -69%;
+  }
+  to {
+    opacity: 0;
+    left: 109%;
+  }
+}
+#phone.Mist .wind:nth-of-type(69), #phone.Smoke .wind:nth-of-type(69), #phone.Haze .wind:nth-of-type(69), #phone.Dust .wind:nth-of-type(69), #phone.Fog .wind:nth-of-type(69), #phone.Sand .wind:nth-of-type(69), #phone.Ash .wind:nth-of-type(69), #phone.Squall .wind:nth-of-type(69), #phone.Tornado .wind:nth-of-type(69) {
+  animation-name: wind-69;
+  animation-delay: 18s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  top: 90%;
+  opacity: 0.48;
+  left: -90%;
+}
+@keyframes wind-69 {
+  from {
+    top: 90%;
+    opacity: 0.48;
+    left: -90%;
+  }
+  to {
+    opacity: 0;
+    left: 130%;
+  }
+}
+#phone.Mist .wind:nth-of-type(70), #phone.Smoke .wind:nth-of-type(70), #phone.Haze .wind:nth-of-type(70), #phone.Dust .wind:nth-of-type(70), #phone.Fog .wind:nth-of-type(70), #phone.Sand .wind:nth-of-type(70), #phone.Ash .wind:nth-of-type(70), #phone.Squall .wind:nth-of-type(70), #phone.Tornado .wind:nth-of-type(70) {
+  animation-name: wind-70;
+  animation-delay: 8s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 88%;
+  opacity: 0.48;
+  left: -64%;
+}
+@keyframes wind-70 {
+  from {
+    top: 88%;
+    opacity: 0.48;
+    left: -64%;
+  }
+  to {
+    opacity: 0;
+    left: 104%;
+  }
+}
+#phone.Mist .wind:nth-of-type(71), #phone.Smoke .wind:nth-of-type(71), #phone.Haze .wind:nth-of-type(71), #phone.Dust .wind:nth-of-type(71), #phone.Fog .wind:nth-of-type(71), #phone.Sand .wind:nth-of-type(71), #phone.Ash .wind:nth-of-type(71), #phone.Squall .wind:nth-of-type(71), #phone.Tornado .wind:nth-of-type(71) {
+  animation-name: wind-71;
+  animation-delay: 18s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  top: 68%;
+  opacity: 0.46;
+  left: -87%;
+}
+@keyframes wind-71 {
+  from {
+    top: 68%;
+    opacity: 0.46;
+    left: -87%;
+  }
+  to {
+    opacity: 0;
+    left: 127%;
+  }
+}
+#phone.Mist .wind:nth-of-type(72), #phone.Smoke .wind:nth-of-type(72), #phone.Haze .wind:nth-of-type(72), #phone.Dust .wind:nth-of-type(72), #phone.Fog .wind:nth-of-type(72), #phone.Sand .wind:nth-of-type(72), #phone.Ash .wind:nth-of-type(72), #phone.Squall .wind:nth-of-type(72), #phone.Tornado .wind:nth-of-type(72) {
+  animation-name: wind-72;
+  animation-delay: 9s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  top: 89%;
+  opacity: 0.42;
+  left: -78%;
+}
+@keyframes wind-72 {
+  from {
+    top: 89%;
+    opacity: 0.42;
+    left: -78%;
+  }
+  to {
+    opacity: 0;
+    left: 118%;
+  }
+}
+#phone.Mist .wind:nth-of-type(73), #phone.Smoke .wind:nth-of-type(73), #phone.Haze .wind:nth-of-type(73), #phone.Dust .wind:nth-of-type(73), #phone.Fog .wind:nth-of-type(73), #phone.Sand .wind:nth-of-type(73), #phone.Ash .wind:nth-of-type(73), #phone.Squall .wind:nth-of-type(73), #phone.Tornado .wind:nth-of-type(73) {
+  animation-name: wind-73;
+  animation-delay: 6s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  top: 78%;
+  opacity: 0.55;
+  left: -65%;
+}
+@keyframes wind-73 {
+  from {
+    top: 78%;
+    opacity: 0.55;
+    left: -65%;
+  }
+  to {
+    opacity: 0;
+    left: 105%;
+  }
+}
+#phone.Mist .wind:nth-of-type(74), #phone.Smoke .wind:nth-of-type(74), #phone.Haze .wind:nth-of-type(74), #phone.Dust .wind:nth-of-type(74), #phone.Fog .wind:nth-of-type(74), #phone.Sand .wind:nth-of-type(74), #phone.Ash .wind:nth-of-type(74), #phone.Squall .wind:nth-of-type(74), #phone.Tornado .wind:nth-of-type(74) {
+  animation-name: wind-74;
+  animation-delay: 9s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 84%;
+  opacity: 0.52;
+  left: -99%;
+}
+@keyframes wind-74 {
+  from {
+    top: 84%;
+    opacity: 0.52;
+    left: -99%;
+  }
+  to {
+    opacity: 0;
+    left: 139%;
+  }
+}
+#phone.Mist .wind:nth-of-type(75), #phone.Smoke .wind:nth-of-type(75), #phone.Haze .wind:nth-of-type(75), #phone.Dust .wind:nth-of-type(75), #phone.Fog .wind:nth-of-type(75), #phone.Sand .wind:nth-of-type(75), #phone.Ash .wind:nth-of-type(75), #phone.Squall .wind:nth-of-type(75), #phone.Tornado .wind:nth-of-type(75) {
+  animation-name: wind-75;
+  animation-delay: 13s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  top: 47%;
+  opacity: 0.4;
+  left: -51%;
+}
+@keyframes wind-75 {
+  from {
+    top: 47%;
+    opacity: 0.4;
+    left: -51%;
+  }
+  to {
+    opacity: 0;
+    left: 91%;
+  }
+}
+
+.snow {
+  display: none;
+}
+
+#phone.Snow .snow {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  color: white;
+}
+#phone.Snow .snow:nth-of-type(1) {
+  animation-name: snow-1;
+  animation-delay: 3s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 10%;
+  opacity: 0.37;
+  top: -82%;
+}
+@keyframes snow-1 {
+  from {
+    left: 10%;
+    opacity: 0.37;
+    top: -82%;
+  }
+  to {
+    opacity: 0;
+    top: 122%;
+  }
+}
+#phone.Snow .snow:nth-of-type(2) {
+  animation-name: snow-2;
+  animation-delay: 16s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 4%;
+  opacity: 0.35;
+  top: -80%;
+}
+@keyframes snow-2 {
+  from {
+    left: 4%;
+    opacity: 0.35;
+    top: -80%;
+  }
+  to {
+    opacity: 0;
+    top: 120%;
+  }
+}
+#phone.Snow .snow:nth-of-type(3) {
+  animation-name: snow-3;
+  animation-delay: 17s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 20%;
+  opacity: 0.57;
+  top: -84%;
+}
+@keyframes snow-3 {
+  from {
+    left: 20%;
+    opacity: 0.57;
+    top: -84%;
+  }
+  to {
+    opacity: 0;
+    top: 124%;
+  }
+}
+#phone.Snow .snow:nth-of-type(4) {
+  animation-name: snow-4;
+  animation-delay: 17s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 22%;
+  opacity: 0.45;
+  top: -58%;
+}
+@keyframes snow-4 {
+  from {
+    left: 22%;
+    opacity: 0.45;
+    top: -58%;
+  }
+  to {
+    opacity: 0;
+    top: 98%;
+  }
+}
+#phone.Snow .snow:nth-of-type(5) {
+  animation-name: snow-5;
+  animation-delay: 7s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 14%;
+  opacity: 0.5;
+  top: -88%;
+}
+@keyframes snow-5 {
+  from {
+    left: 14%;
+    opacity: 0.5;
+    top: -88%;
+  }
+  to {
+    opacity: 0;
+    top: 128%;
+  }
+}
+#phone.Snow .snow:nth-of-type(6) {
+  animation-name: snow-6;
+  animation-delay: 13s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 14%;
+  opacity: 0.36;
+  top: -91%;
+}
+@keyframes snow-6 {
+  from {
+    left: 14%;
+    opacity: 0.36;
+    top: -91%;
+  }
+  to {
+    opacity: 0;
+    top: 131%;
+  }
+}
+#phone.Snow .snow:nth-of-type(7) {
+  animation-name: snow-7;
+  animation-delay: 19s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 13%;
+  opacity: 0.43;
+  top: -52%;
+}
+@keyframes snow-7 {
+  from {
+    left: 13%;
+    opacity: 0.43;
+    top: -52%;
+  }
+  to {
+    opacity: 0;
+    top: 92%;
+  }
+}
+#phone.Snow .snow:nth-of-type(8) {
+  animation-name: snow-8;
+  animation-delay: 14s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 53%;
+  opacity: 0.6;
+  top: -99%;
+}
+@keyframes snow-8 {
+  from {
+    left: 53%;
+    opacity: 0.6;
+    top: -99%;
+  }
+  to {
+    opacity: 0;
+    top: 139%;
+  }
+}
+#phone.Snow .snow:nth-of-type(9) {
+  animation-name: snow-9;
+  animation-delay: 16s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 99%;
+  opacity: 0.41;
+  top: -97%;
+}
+@keyframes snow-9 {
+  from {
+    left: 99%;
+    opacity: 0.41;
+    top: -97%;
+  }
+  to {
+    opacity: 0;
+    top: 137%;
+  }
+}
+#phone.Snow .snow:nth-of-type(10) {
+  animation-name: snow-10;
+  animation-delay: 8s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 1%;
+  opacity: 0.52;
+  top: -82%;
+}
+@keyframes snow-10 {
+  from {
+    left: 1%;
+    opacity: 0.52;
+    top: -82%;
+  }
+  to {
+    opacity: 0;
+    top: 122%;
+  }
+}
+#phone.Snow .snow:nth-of-type(11) {
+  animation-name: snow-11;
+  animation-delay: 6s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 50%;
+  opacity: 0.57;
+  top: -76%;
+}
+@keyframes snow-11 {
+  from {
+    left: 50%;
+    opacity: 0.57;
+    top: -76%;
+  }
+  to {
+    opacity: 0;
+    top: 116%;
+  }
+}
+#phone.Snow .snow:nth-of-type(12) {
+  animation-name: snow-12;
+  animation-delay: 15s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 76%;
+  opacity: 0.42;
+  top: -56%;
+}
+@keyframes snow-12 {
+  from {
+    left: 76%;
+    opacity: 0.42;
+    top: -56%;
+  }
+  to {
+    opacity: 0;
+    top: 96%;
+  }
+}
+#phone.Snow .snow:nth-of-type(13) {
+  animation-name: snow-13;
+  animation-delay: 10s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 56%;
+  opacity: 0.51;
+  top: -73%;
+}
+@keyframes snow-13 {
+  from {
+    left: 56%;
+    opacity: 0.51;
+    top: -73%;
+  }
+  to {
+    opacity: 0;
+    top: 113%;
+  }
+}
+#phone.Snow .snow:nth-of-type(14) {
+  animation-name: snow-14;
+  animation-delay: 18s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 51%;
+  opacity: 0.42;
+  top: -63%;
+}
+@keyframes snow-14 {
+  from {
+    left: 51%;
+    opacity: 0.42;
+    top: -63%;
+  }
+  to {
+    opacity: 0;
+    top: 103%;
+  }
+}
+#phone.Snow .snow:nth-of-type(15) {
+  animation-name: snow-15;
+  animation-delay: 14s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 52%;
+  opacity: 0.51;
+  top: -55%;
+}
+@keyframes snow-15 {
+  from {
+    left: 52%;
+    opacity: 0.51;
+    top: -55%;
+  }
+  to {
+    opacity: 0;
+    top: 95%;
+  }
+}
+#phone.Snow .snow:nth-of-type(16) {
+  animation-name: snow-16;
+  animation-delay: 16s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 12%;
+  opacity: 0.31;
+  top: -93%;
+}
+@keyframes snow-16 {
+  from {
+    left: 12%;
+    opacity: 0.31;
+    top: -93%;
+  }
+  to {
+    opacity: 0;
+    top: 133%;
+  }
+}
+#phone.Snow .snow:nth-of-type(17) {
+  animation-name: snow-17;
+  animation-delay: 1s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 29%;
+  opacity: 0.51;
+  top: -83%;
+}
+@keyframes snow-17 {
+  from {
+    left: 29%;
+    opacity: 0.51;
+    top: -83%;
+  }
+  to {
+    opacity: 0;
+    top: 123%;
+  }
+}
+#phone.Snow .snow:nth-of-type(18) {
+  animation-name: snow-18;
+  animation-delay: 10s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 64%;
+  opacity: 0.51;
+  top: -94%;
+}
+@keyframes snow-18 {
+  from {
+    left: 64%;
+    opacity: 0.51;
+    top: -94%;
+  }
+  to {
+    opacity: 0;
+    top: 134%;
+  }
+}
+#phone.Snow .snow:nth-of-type(19) {
+  animation-name: snow-19;
+  animation-delay: 12s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 70%;
+  opacity: 0.35;
+  top: -51%;
+}
+@keyframes snow-19 {
+  from {
+    left: 70%;
+    opacity: 0.35;
+    top: -51%;
+  }
+  to {
+    opacity: 0;
+    top: 91%;
+  }
+}
+#phone.Snow .snow:nth-of-type(20) {
+  animation-name: snow-20;
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 71%;
+  opacity: 0.53;
+  top: -79%;
+}
+@keyframes snow-20 {
+  from {
+    left: 71%;
+    opacity: 0.53;
+    top: -79%;
+  }
+  to {
+    opacity: 0;
+    top: 119%;
+  }
+}
+#phone.Snow .snow:nth-of-type(21) {
+  animation-name: snow-21;
+  animation-delay: 8s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 53%;
+  opacity: 0.59;
+  top: -61%;
+}
+@keyframes snow-21 {
+  from {
+    left: 53%;
+    opacity: 0.59;
+    top: -61%;
+  }
+  to {
+    opacity: 0;
+    top: 101%;
+  }
+}
+#phone.Snow .snow:nth-of-type(22) {
+  animation-name: snow-22;
+  animation-delay: 15s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 26%;
+  opacity: 0.32;
+  top: -60%;
+}
+@keyframes snow-22 {
+  from {
+    left: 26%;
+    opacity: 0.32;
+    top: -60%;
+  }
+  to {
+    opacity: 0;
+    top: 100%;
+  }
+}
+#phone.Snow .snow:nth-of-type(23) {
+  animation-name: snow-23;
+  animation-delay: 17s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 46%;
+  opacity: 0.57;
+  top: -84%;
+}
+@keyframes snow-23 {
+  from {
+    left: 46%;
+    opacity: 0.57;
+    top: -84%;
+  }
+  to {
+    opacity: 0;
+    top: 124%;
+  }
+}
+#phone.Snow .snow:nth-of-type(24) {
+  animation-name: snow-24;
+  animation-delay: 15s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 52%;
+  opacity: 0.5;
+  top: -78%;
+}
+@keyframes snow-24 {
+  from {
+    left: 52%;
+    opacity: 0.5;
+    top: -78%;
+  }
+  to {
+    opacity: 0;
+    top: 118%;
+  }
+}
+#phone.Snow .snow:nth-of-type(25) {
+  animation-name: snow-25;
+  animation-delay: 19s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 41%;
+  opacity: 0.56;
+  top: -74%;
+}
+@keyframes snow-25 {
+  from {
+    left: 41%;
+    opacity: 0.56;
+    top: -74%;
+  }
+  to {
+    opacity: 0;
+    top: 114%;
+  }
+}
+#phone.Snow .snow:nth-of-type(26) {
+  animation-name: snow-26;
+  animation-delay: 12s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 7%;
+  opacity: 0.57;
+  top: -80%;
+}
+@keyframes snow-26 {
+  from {
+    left: 7%;
+    opacity: 0.57;
+    top: -80%;
+  }
+  to {
+    opacity: 0;
+    top: 120%;
+  }
+}
+#phone.Snow .snow:nth-of-type(27) {
+  animation-name: snow-27;
+  animation-delay: 5s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 100%;
+  opacity: 0.5;
+  top: -62%;
+}
+@keyframes snow-27 {
+  from {
+    left: 100%;
+    opacity: 0.5;
+    top: -62%;
+  }
+  to {
+    opacity: 0;
+    top: 102%;
+  }
+}
+#phone.Snow .snow:nth-of-type(28) {
+  animation-name: snow-28;
+  animation-delay: 3s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 45%;
+  opacity: 0.51;
+  top: -98%;
+}
+@keyframes snow-28 {
+  from {
+    left: 45%;
+    opacity: 0.51;
+    top: -98%;
+  }
+  to {
+    opacity: 0;
+    top: 138%;
+  }
+}
+#phone.Snow .snow:nth-of-type(29) {
+  animation-name: snow-29;
+  animation-delay: 3s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 88%;
+  opacity: 0.45;
+  top: -82%;
+}
+@keyframes snow-29 {
+  from {
+    left: 88%;
+    opacity: 0.45;
+    top: -82%;
+  }
+  to {
+    opacity: 0;
+    top: 122%;
+  }
+}
+#phone.Snow .snow:nth-of-type(30) {
+  animation-name: snow-30;
+  animation-delay: 15s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 100%;
+  opacity: 0.53;
+  top: -59%;
+}
+@keyframes snow-30 {
+  from {
+    left: 100%;
+    opacity: 0.53;
+    top: -59%;
+  }
+  to {
+    opacity: 0;
+    top: 99%;
+  }
+}
+#phone.Snow .snow:nth-of-type(31) {
+  animation-name: snow-31;
+  animation-delay: 18s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 75%;
+  opacity: 0.38;
+  top: -54%;
+}
+@keyframes snow-31 {
+  from {
+    left: 75%;
+    opacity: 0.38;
+    top: -54%;
+  }
+  to {
+    opacity: 0;
+    top: 94%;
+  }
+}
+#phone.Snow .snow:nth-of-type(32) {
+  animation-name: snow-32;
+  animation-delay: 14s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 27%;
+  opacity: 0.44;
+  top: -76%;
+}
+@keyframes snow-32 {
+  from {
+    left: 27%;
+    opacity: 0.44;
+    top: -76%;
+  }
+  to {
+    opacity: 0;
+    top: 116%;
+  }
+}
+#phone.Snow .snow:nth-of-type(33) {
+  animation-name: snow-33;
+  animation-delay: 4s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  left: 44%;
+  opacity: 0.35;
+  top: -66%;
+}
+@keyframes snow-33 {
+  from {
+    left: 44%;
+    opacity: 0.35;
+    top: -66%;
+  }
+  to {
+    opacity: 0;
+    top: 106%;
+  }
+}
+#phone.Snow .snow:nth-of-type(34) {
+  animation-name: snow-34;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 9%;
+  opacity: 0.54;
+  top: -65%;
+}
+@keyframes snow-34 {
+  from {
+    left: 9%;
+    opacity: 0.54;
+    top: -65%;
+  }
+  to {
+    opacity: 0;
+    top: 105%;
+  }
+}
+#phone.Snow .snow:nth-of-type(35) {
+  animation-name: snow-35;
+  animation-delay: 19s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 30%;
+  opacity: 0.43;
+  top: -66%;
+}
+@keyframes snow-35 {
+  from {
+    left: 30%;
+    opacity: 0.43;
+    top: -66%;
+  }
+  to {
+    opacity: 0;
+    top: 106%;
+  }
+}
+#phone.Snow .snow:nth-of-type(36) {
+  animation-name: snow-36;
+  animation-delay: 18s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 22%;
+  opacity: 0.4;
+  top: -61%;
+}
+@keyframes snow-36 {
+  from {
+    left: 22%;
+    opacity: 0.4;
+    top: -61%;
+  }
+  to {
+    opacity: 0;
+    top: 101%;
+  }
+}
+#phone.Snow .snow:nth-of-type(37) {
+  animation-name: snow-37;
+  animation-delay: 8s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 68%;
+  opacity: 0.53;
+  top: -99%;
+}
+@keyframes snow-37 {
+  from {
+    left: 68%;
+    opacity: 0.53;
+    top: -99%;
+  }
+  to {
+    opacity: 0;
+    top: 139%;
+  }
+}
+#phone.Snow .snow:nth-of-type(38) {
+  animation-name: snow-38;
+  animation-delay: 7s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 42%;
+  opacity: 0.39;
+  top: -77%;
+}
+@keyframes snow-38 {
+  from {
+    left: 42%;
+    opacity: 0.39;
+    top: -77%;
+  }
+  to {
+    opacity: 0;
+    top: 117%;
+  }
+}
+#phone.Snow .snow:nth-of-type(39) {
+  animation-name: snow-39;
+  animation-delay: 16s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 6%;
+  opacity: 0.32;
+  top: -100%;
+}
+@keyframes snow-39 {
+  from {
+    left: 6%;
+    opacity: 0.32;
+    top: -100%;
+  }
+  to {
+    opacity: 0;
+    top: 140%;
+  }
+}
+#phone.Snow .snow:nth-of-type(40) {
+  animation-name: snow-40;
+  animation-delay: 16s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 57%;
+  opacity: 0.32;
+  top: -65%;
+}
+@keyframes snow-40 {
+  from {
+    left: 57%;
+    opacity: 0.32;
+    top: -65%;
+  }
+  to {
+    opacity: 0;
+    top: 105%;
+  }
+}
+#phone.Snow .snow:nth-of-type(41) {
+  animation-name: snow-41;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  left: 49%;
+  opacity: 0.35;
+  top: -80%;
+}
+@keyframes snow-41 {
+  from {
+    left: 49%;
+    opacity: 0.35;
+    top: -80%;
+  }
+  to {
+    opacity: 0;
+    top: 120%;
+  }
+}
+#phone.Snow .snow:nth-of-type(42) {
+  animation-name: snow-42;
+  animation-delay: 15s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 27%;
+  opacity: 0.59;
+  top: -99%;
+}
+@keyframes snow-42 {
+  from {
+    left: 27%;
+    opacity: 0.59;
+    top: -99%;
+  }
+  to {
+    opacity: 0;
+    top: 139%;
+  }
+}
+#phone.Snow .snow:nth-of-type(43) {
+  animation-name: snow-43;
+  animation-delay: 16s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 99%;
+  opacity: 0.55;
+  top: -60%;
+}
+@keyframes snow-43 {
+  from {
+    left: 99%;
+    opacity: 0.55;
+    top: -60%;
+  }
+  to {
+    opacity: 0;
+    top: 100%;
+  }
+}
+#phone.Snow .snow:nth-of-type(44) {
+  animation-name: snow-44;
+  animation-delay: 12s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  left: 73%;
+  opacity: 0.51;
+  top: -53%;
+}
+@keyframes snow-44 {
+  from {
+    left: 73%;
+    opacity: 0.51;
+    top: -53%;
+  }
+  to {
+    opacity: 0;
+    top: 93%;
+  }
+}
+#phone.Snow .snow:nth-of-type(45) {
+  animation-name: snow-45;
+  animation-delay: 18s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 7%;
+  opacity: 0.38;
+  top: -90%;
+}
+@keyframes snow-45 {
+  from {
+    left: 7%;
+    opacity: 0.38;
+    top: -90%;
+  }
+  to {
+    opacity: 0;
+    top: 130%;
+  }
+}
+#phone.Snow .snow:nth-of-type(46) {
+  animation-name: snow-46;
+  animation-delay: 5s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 77%;
+  opacity: 0.5;
+  top: -55%;
+}
+@keyframes snow-46 {
+  from {
+    left: 77%;
+    opacity: 0.5;
+    top: -55%;
+  }
+  to {
+    opacity: 0;
+    top: 95%;
+  }
+}
+#phone.Snow .snow:nth-of-type(47) {
+  animation-name: snow-47;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  left: 56%;
+  opacity: 0.39;
+  top: -93%;
+}
+@keyframes snow-47 {
+  from {
+    left: 56%;
+    opacity: 0.39;
+    top: -93%;
+  }
+  to {
+    opacity: 0;
+    top: 133%;
+  }
+}
+#phone.Snow .snow:nth-of-type(48) {
+  animation-name: snow-48;
+  animation-delay: 18s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 19%;
+  opacity: 0.6;
+  top: -89%;
+}
+@keyframes snow-48 {
+  from {
+    left: 19%;
+    opacity: 0.6;
+    top: -89%;
+  }
+  to {
+    opacity: 0;
+    top: 129%;
+  }
+}
+#phone.Snow .snow:nth-of-type(49) {
+  animation-name: snow-49;
+  animation-delay: 9s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  left: 35%;
+  opacity: 0.48;
+  top: -89%;
+}
+@keyframes snow-49 {
+  from {
+    left: 35%;
+    opacity: 0.48;
+    top: -89%;
+  }
+  to {
+    opacity: 0;
+    top: 129%;
+  }
+}
+#phone.Snow .snow:nth-of-type(50) {
+  animation-name: snow-50;
+  animation-delay: 8s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 3%;
+  opacity: 0.47;
+  top: -84%;
+}
+@keyframes snow-50 {
+  from {
+    left: 3%;
+    opacity: 0.47;
+    top: -84%;
+  }
+  to {
+    opacity: 0;
+    top: 124%;
+  }
+}
+
+#phone.Noite.Clear .sky, #phone.Noite.Clouds .sky, #phone.Noite.Rain .sky {
+  position: relative;
+  opacity: 0.5;
+  z-index: 1;
+}
+#phone.Noite.Clear .stars, #phone.Noite.Clouds .stars, #phone.Noite.Rain .stars {
+  z-index: 10;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  animation: animStar 100s linear infinite;
+}
+#phone.Noite.Clear .stars:after, #phone.Noite.Clouds .stars:after, #phone.Noite.Rain .stars:after {
+  content: " ";
+  top: -100px;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  position: absolute;
+  background: transparent;
+  box-shadow: 938px 244px #FFF , 94px 12px #FFF , 459px 320px #FFF , 971px 146px #FFF , 108px 689px #FFF , 680px 538px #FFF , 825px 83px #FFF , 2px 66px #FFF , 944px 692px #FFF , 827px 689px #FFF , 268px 221px #FFF , 853px 203px #FFF , 629px 580px #FFF , 311px 734px #FFF , 913px 980px #FFF , 127px 675px #FFF , 861px 857px #FFF , 290px 276px #FFF , 382px 443px #FFF , 466px 771px #FFF , 870px 997px #FFF , 563px 188px #FFF , 544px 677px #FFF , 606px 394px #FFF , 469px 300px #FFF , 304px 462px #FFF , 325px 632px #FFF , 84px 530px #FFF , 364px 733px #FFF , 423px 150px #FFF , 738px 64px #FFF , 389px 72px #FFF , 348px 106px #FFF , 368px 784px #FFF , 243px 644px #FFF , 30px 551px #FFF , 616px 780px #FFF , 94px 948px #FFF , 974px 296px #FFF , 614px 581px #FFF , 517px 969px #FFF , 820px 269px #FFF , 238px 412px #FFF , 387px 369px #FFF , 737px 942px #FFF , 770px 3px #FFF , 91px 718px #FFF , 718px 504px #FFF , 588px 81px #FFF , 736px 429px #FFF , 170px 495px #FFF , 221px 678px #FFF , 650px 683px #FFF , 301px 573px #FFF , 586px 148px #FFF , 190px 656px #FFF , 884px 234px #FFF , 913px 907px #FFF , 62px 137px #FFF , 756px 845px #FFF , 53px 44px #FFF , 679px 730px #FFF , 703px 519px #FFF , 967px 687px #FFF , 620px 502px #FFF , 753px 949px #FFF , 44px 309px #FFF , 364px 809px #FFF , 511px 479px #FFF , 236px 3px #FFF , 315px 169px #FFF , 464px 658px #FFF , 283px 3px #FFF , 95px 788px #FFF , 773px 293px #FFF , 742px 584px #FFF , 339px 222px #FFF , 736px 191px #FFF , 281px 287px #FFF , 491px 99px #FFF , 256px 563px #FFF , 462px 551px #FFF , 939px 263px #FFF , 271px 415px #FFF , 333px 27px #FFF , 616px 8px #FFF , 884px 888px #FFF , 665px 798px #FFF , 232px 449px #FFF , 791px 242px #FFF , 44px 145px #FFF , 894px 107px #FFF , 44px 229px #FFF , 229px 364px #FFF , 937px 488px #FFF , 844px 321px #FFF , 288px 583px #FFF , 626px 234px #FFF , 35px 197px #FFF , 840px 525px #FFF , 519px 281px #FFF , 809px 418px #FFF , 915px 695px #FFF , 839px 239px #FFF , 886px 462px #FFF , 463px 912px #FFF , 10px 172px #FFF , 288px 209px #FFF , 955px 460px #FFF , 151px 310px #FFF , 453px 374px #FFF , 664px 879px #FFF , 114px 391px #FFF , 929px 85px #FFF , 935px 388px #FFF , 535px 946px #FFF , 913px 906px #FFF , 473px 147px #FFF , 877px 571px #FFF , 916px 537px #FFF , 732px 456px #FFF , 233px 579px #FFF , 973px 866px #FFF , 633px 989px #FFF , 519px 54px #FFF , 709px 442px #FFF , 955px 110px #FFF , 171px 821px #FFF , 86px 46px #FFF , 815px 176px #FFF , 982px 50px #FFF , 989px 891px #FFF , 422px 20px #FFF , 146px 229px #FFF , 407px 418px #FFF , 327px 791px #FFF , 125px 660px #FFF , 86px 121px #FFF , 777px 784px #FFF , 111px 847px #FFF , 854px 349px #FFF , 886px 371px #FFF , 806px 269px #FFF , 166px 689px #FFF , 873px 512px #FFF , 197px 737px #FFF , 183px 593px #FFF , 757px 917px #FFF , 114px 448px #FFF , 457px 364px #FFF , 558px 464px #FFF , 108px 152px #FFF , 590px 946px #FFF , 47px 49px #FFF , 320px 662px #FFF , 115px 886px #FFF , 193px 923px #FFF , 934px 23px #FFF , 304px 15px #FFF , 350px 603px #FFF , 3px 502px #FFF , 15px 461px #FFF , 288px 843px #FFF , 366px 589px #FFF , 414px 922px #FFF , 25px 43px #FFF , 243px 405px #FFF , 184px 395px #FFF , 255px 114px #FFF , 364px 482px #FFF , 529px 553px #FFF , 525px 219px #FFF , 39px 743px #FFF , 560px 918px #FFF , 602px 516px #FFF , 75px 756px #FFF , 847px 110px #FFF , 944px 536px #FFF , 522px 721px #FFF , 613px 306px #FFF , 510px 712px #FFF , 707px 789px #FFF , 357px 473px #FFF , 910px 381px #FFF , 344px 442px #FFF , 231px 881px #FFF , 563px 394px #FFF , 129px 958px #FFF , 729px 906px #FFF , 782px 729px #FFF , 810px 70px #FFF , 200px 741px #FFF , 989px 414px #FFF , 734px 894px #FFF , 906px 413px #FFF , 521px 682px #FFF , 113px 714px #FFF , 855px 304px #FFF , 568px 780px #FFF , 572px 473px #FFF;
+}
+#phone.Noite.Clear .stars2, #phone.Noite.Clouds .stars2, #phone.Noite.Rain .stars2 {
+  z-index: 10;
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  animation: animStar 125s linear infinite;
+}
+#phone.Noite.Clear .stars2:after, #phone.Noite.Clouds .stars2:after, #phone.Noite.Rain .stars2:after {
+  content: " ";
+  top: -100px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  position: absolute;
+  background: transparent;
+  box-shadow: 533px 580px #FFF , 431px 371px #FFF , 294px 347px #FFF , 936px 87px #FFF , 545px 361px #FFF , 790px 803px #FFF , 343px 644px #FFF , 806px 340px #FFF , 809px 991px #FFF , 143px 227px #FFF , 763px 543px #FFF , 807px 849px #FFF , 165px 447px #FFF , 702px 546px #FFF , 295px 893px #FFF , 315px 164px #FFF , 691px 712px #FFF , 951px 97px #FFF , 24px 139px #FFF , 822px 787px #FFF , 280px 938px #FFF , 528px 761px #FFF , 250px 164px #FFF , 799px 143px #FFF , 974px 442px #FFF , 259px 479px #FFF , 487px 673px #FFF , 53px 328px #FFF , 11px 489px #FFF , 688px 219px #FFF , 749px 531px #FFF , 678px 348px #FFF , 870px 334px #FFF , 657px 977px #FFF , 686px 50px #FFF , 186px 206px #FFF , 680px 129px #FFF , 916px 146px #FFF , 718px 208px #FFF , 620px 668px #FFF , 933px 537px #FFF , 608px 278px #FFF , 212px 389px #FFF , 157px 511px #FFF , 933px 681px #FFF , 362px 312px #FFF , 76px 811px #FFF , 311px 257px #FFF , 387px 879px #FFF , 822px 700px #FFF , 385px 939px #FFF , 182px 755px #FFF , 779px 978px #FFF , 325px 858px #FFF , 285px 196px #FFF , 35px 113px #FFF , 886px 505px #FFF , 437px 555px #FFF , 996px 828px #FFF , 410px 194px #FFF , 302px 955px #FFF , 532px 460px #FFF , 259px 257px #FFF , 310px 11px #FFF , 366px 902px #FFF , 300px 960px #FFF , 185px 770px #FFF , 103px 103px #FFF , 614px 310px #FFF , 123px 936px #FFF , 486px 633px #FFF , 777px 256px #FFF , 299px 686px #FFF , 726px 683px #FFF , 719px 552px #FFF , 478px 633px #FFF , 234px 653px #FFF , 928px 971px #FFF , 310px 630px #FFF , 988px 189px #FFF , 278px 822px #FFF , 109px 967px #FFF , 303px 908px #FFF , 560px 554px #FFF , 327px 494px #FFF , 770px 918px #FFF , 724px 662px #FFF , 954px 225px #FFF , 617px 711px #FFF , 625px 208px #FFF , 868px 516px #FFF , 566px 744px #FFF , 859px 211px #FFF , 305px 313px #FFF , 801px 444px #FFF , 290px 48px #FFF , 295px 298px #FFF , 630px 846px #FFF , 946px 158px #FFF , 880px 614px #FFF , 128px 505px #FFF , 271px 682px #FFF , 314px 509px #FFF , 415px 743px #FFF , 198px 830px #FFF , 722px 799px #FFF , 956px 723px #FFF , 296px 764px #FFF , 198px 968px #FFF , 942px 312px #FFF , 118px 135px #FFF , 184px 979px #FFF , 95px 872px #FFF , 703px 498px #FFF , 674px 151px #FFF , 416px 849px #FFF , 916px 288px #FFF , 338px 19px #FFF , 137px 953px #FFF , 926px 535px #FFF , 105px 426px #FFF , 150px 705px #FFF , 471px 877px #FFF , 764px 827px #FFF , 181px 190px #FFF , 985px 585px #FFF , 719px 322px #FFF , 750px 805px #FFF , 349px 992px #FFF , 826px 234px #FFF , 769px 287px #FFF , 42px 721px #FFF , 610px 228px #FFF , 641px 950px #FFF , 959px 562px #FFF , 468px 371px #FFF , 7px 637px #FFF , 413px 927px #FFF , 948px 560px #FFF , 703px 874px #FFF , 438px 323px #FFF , 234px 906px #FFF , 769px 857px #FFF , 887px 410px #FFF , 108px 381px #FFF , 935px 339px #FFF , 908px 811px #FFF , 235px 191px #FFF , 991px 468px #FFF , 94px 769px #FFF;
+}
+#phone.Noite.Clear .stars3, #phone.Noite.Clouds .stars3, #phone.Noite.Rain .stars3 {
+  z-index: 10;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  animation: animStar 175s linear infinite;
+}
+#phone.Noite.Clear .stars3:after, #phone.Noite.Clouds .stars3:after, #phone.Noite.Rain .stars3:after {
+  content: " ";
+  top: -100px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  position: absolute;
+  background: transparent;
+  box-shadow: 380px 489px #FFF , 704px 625px #FFF , 902px 972px #FFF , 209px 510px #FFF , 66px 703px #FFF , 919px 925px #FFF , 549px 732px #FFF , 1000px 268px #FFF , 147px 378px #FFF , 786px 461px #FFF , 997px 951px #FFF , 302px 973px #FFF , 151px 87px #FFF , 43px 853px #FFF , 324px 46px #FFF , 691px 992px #FFF , 829px 293px #FFF , 20px 260px #FFF , 894px 259px #FFF , 487px 529px #FFF , 977px 483px #FFF , 376px 664px #FFF , 223px 846px #FFF , 578px 53px #FFF , 985px 640px #FFF , 452px 430px #FFF , 746px 519px #FFF , 710px 6px #FFF , 577px 985px #FFF , 31px 659px #FFF , 449px 141px #FFF , 864px 118px #FFF , 985px 557px #FFF , 540px 663px #FFF , 42px 734px #FFF , 828px 450px #FFF , 413px 54px #FFF , 81px 787px #FFF , 700px 377px #FFF , 254px 24px #FFF , 821px 275px #FFF , 33px 478px #FFF , 996px 942px #FFF , 575px 464px #FFF , 238px 624px #FFF , 145px 718px #FFF , 41px 236px #FFF , 965px 921px #FFF , 692px 818px #FFF , 173px 414px #FFF , 607px 844px #FFF , 136px 78px #FFF , 904px 352px #FFF , 882px 675px #FFF , 973px 914px #FFF , 723px 120px #FFF , 261px 754px #FFF , 143px 589px #FFF , 832px 436px #FFF , 896px 130px #FFF , 110px 297px #FFF , 378px 484px #FFF , 357px 494px #FFF , 74px 350px #FFF , 13px 437px #FFF , 365px 277px #FFF , 815px 749px #FFF , 886px 831px #FFF , 318px 254px #FFF , 927px 759px #FFF , 340px 128px #FFF , 903px 478px #FFF , 792px 739px #FFF , 692px 775px #FFF , 879px 735px #FFF , 104px 408px #FFF , 410px 340px #FFF , 308px 765px #FFF , 891px 919px #FFF , 500px 349px #FFF , 814px 1000px #FFF , 578px 688px #FFF , 936px 747px #FFF , 718px 95px #FFF , 177px 414px #FFF , 759px 166px #FFF , 954px 782px #FFF , 518px 805px #FFF , 710px 73px #FFF , 804px 654px #FFF , 89px 995px #FFF , 929px 763px #FFF , 399px 154px #FFF , 493px 600px #FFF , 23px 629px #FFF , 289px 483px #FFF , 881px 749px #FFF , 860px 535px #FFF , 933px 236px #FFF , 212px 318px #FFF;
+}
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-1000px) translateX(-1000px);
+  }
+}/*# sourceMappingURL=backgrounds-animations.css.map */
