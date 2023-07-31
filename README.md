@@ -14,7 +14,7 @@ Um dispositivo capaz de executar arquivos em python, de preferencia o Pycharm!
 
 pip install:
 
-Framework: Flask
+Framework: Flask<br>
 Biblioteca: requests, render_template e time
 
 ## 🛠️ Construído com
