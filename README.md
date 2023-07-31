@@ -4,7 +4,7 @@ Meu projeto de Condições Meteorológicas é um website interativo que oferece 
 
 ## 🚀 Começando
 
-Para acessar e testar nosso protótipo, basta clonar ou abrir o projeto no Pycharm. Ao rodas o main.py, rapidamente terá acesso à condição meteorológica desejada!
+Para acessar e testar nosso protótipo, basta clonar ou abrir o projeto no Pycharm. Ao rodar o main.py, rapidamente terá acesso à condição meteorológica desejada!
 
 ### 📋 Pré-requisitos
 
