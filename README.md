@@ -8,8 +8,6 @@ Para acessar e testar nosso protótipo, basta clonar ou abrir o projeto no Pycha
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
-
 Um dispositivo capaz de executar arquivos em python, de preferencia o Pycharm!
 
 ### 🔧 Instalação
