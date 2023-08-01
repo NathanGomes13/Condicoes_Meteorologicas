@@ -8,6 +8,10 @@ Para acessar e testar nosso protótipo, basta clonar ou abrir o projeto no Pycha
 
 ### 📋 Pré-requisitos
 
+[Condições Meteorológicas](https://nathangomes.pythonanywhere.com/)
+
+OU
+
 Um dispositivo capaz de executar arquivos em python, de preferencia o Pycharm!
 
 ### 🔧 Instalação
@@ -24,7 +28,7 @@ Biblioteca: requests, render_template e time
 
 ## ✒️ Autor
 
-[@NathanGomes13 ](https://nathan-gomes.netlify.app/)
+[@NathanGomes13](https://nathan-gomes.netlify.app/)
 
 
 ## 📄 Licença
