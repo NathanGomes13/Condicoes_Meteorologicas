@@ -8,7 +8,7 @@ Para acessar e testar nosso protótipo, basta clonar ou abrir o projeto no Pycha
 
 ### 📋 Pré-requisitos
 
-[Condições Meteorológicas](https://nathangomes.pythonanywhere.com/)
+Acessar ao site: [Condições Meteorológicas](https://nathangomes.pythonanywhere.com/)
 
 OU
 
