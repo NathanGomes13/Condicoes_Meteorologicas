@@ -4,13 +4,9 @@ Meu projeto de Condições Meteorológicas é um website interativo que oferece 
 
 ## 🚀 Começando
 
-Para acessar e testar nosso protótipo, basta clonar ou abrir o projeto no Pycharm. Ao iniciar o main.py, rapidamente terá acesso à condição meteorológica desejada!
+Para acessar e testar nosso protótipo, basta acessar ao site:  <a href="https://nathangomes.pythonanywhere.com/" target="_blank" rel="noreferrer">Condições Meteorológicas</a> <strong>OU</strong> clonar ou abrir o projeto no Pycharm. Ao iniciar o main.py, rapidamente terá acesso à condição meteorológica desejada!
 
 ### 📋 Pré-requisitos
-
-Acessar ao site:  <a href="https://nathangomes.pythonanywhere.com/" target="_blank" rel="noreferrer">Condições Meteorológicas</a>
-
-OU
 
 Um dispositivo capaz de executar arquivos em python, de preferencia o Pycharm!
 
