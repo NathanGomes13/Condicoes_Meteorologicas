@@ -325,4 +325,37 @@ form #enviar + svg:hover {
 }
 #phone.visible #wind_data {
   right: 33px;
+}
+
+@media (max-width: 1300px) {
+  body {
+    min-height: none;
+  }
+}
+@media (max-width: 1050px) {
+  body {
+    min-height: none;
+  }
+  #screen {
+    margin-top: 10px;
+  }
+  #phone {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 400px) {
+  #screen {
+    margin-top: 0px;
+  }
+  #phone {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 375px) {
+  #phone {
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    aspect-ratio: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

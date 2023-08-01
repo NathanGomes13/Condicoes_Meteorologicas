@@ -58,7 +58,7 @@
 #phone.Noite.Thunderstorm #imagem_descricao svg, .phone.Dia.Thunderstorm #imagem_descricao svg {
   animation: moonSunBouncingClear 7s ease-in-out infinite;
 }
-#phone.Noite.Thunderstorm #imagem_descricao svg g:nth-of-type(3) rect, .phone.Dia.Thunderstorm #imagem_descricao svg g:nth-of-type(3) rect {
+#phone.Noite.Thunderstorm #imagem_descricao svg g:nth-of-type(3) rect, #phone.Dia.Thunderstorm #imagem_descricao svg g:nth-of-type(3) rect {
   height: 32px;
 }
 
