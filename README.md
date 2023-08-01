@@ -8,7 +8,7 @@ Para acessar e testar nosso protótipo, basta clonar ou abrir o projeto no Pycha
 
 ### 📋 Pré-requisitos
 
-Acessar ao site: [Condições Meteorológicas](https://nathangomes.pythonanywhere.com/)
+Acessar ao site:  <a href="https://nathangomes.pythonanywhere.com/" target="_blank" rel="noreferrer">Condições Meteorológicas</a>
 
 OU
 
@@ -37,4 +37,4 @@ Este projeto está sob a licença (MIT license) - veja o arquivo [LICENSE.md](ht
 
 ## 🎁 Apoie-me comprando um café!
 
-<p><a href="https://www.buymeacoffee.com/nathangomes"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="nathangomes" /></a></p><br><br>
+<p><a target="_blank" href="https://www.buymeacoffee.com/nathangomes"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="nathangomes" /></a></p><br><br>
